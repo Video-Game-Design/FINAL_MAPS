@@ -1,55 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" width="80" height="80" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="Dirt" tilewidth="32" tileheight="32">
-  <image source="Video Game Tiles - Pixel by Pixel/Dirt.png" width="64" height="64"/>
+  <image source="../Video Game Tiles - Pixel by Pixel/Dirt.png" width="64" height="64"/>
  </tileset>
  <tileset firstgid="5" name="Grass" tilewidth="32" tileheight="32">
-  <image source="Video Game Tiles - Pixel by Pixel/Grass.png" width="64" height="64"/>
+  <image source="../Video Game Tiles - Pixel by Pixel/Grass.png" width="64" height="64"/>
  </tileset>
- <tileset firstgid="9" name="Grass-Mushroom" tilewidth="32" tileheight="32">
-  <image source="Video Game Tiles - Pixel by Pixel/Grass-Mushroom.png" width="64" height="64"/>
+ <tileset firstgid="9" name="Grass-Flowers" tilewidth="32" tileheight="32">
+  <image source="../Video Game Tiles - Pixel by Pixel/Grass-Flowers.png" width="64" height="64"/>
  </tileset>
- <tileset firstgid="13" name="Water 3 - Lighted Water 2" tilewidth="32" tileheight="32">
-  <image source="Video Game Tiles - Pixel by Pixel/Water 3 - Lighted Water 2.png" width="64" height="64"/>
+ <tileset firstgid="13" name="Grass-Mushroom" tilewidth="32" tileheight="32">
+  <image source="../Video Game Tiles - Pixel by Pixel/Grass-Mushroom.png" width="64" height="64"/>
  </tileset>
- <tileset firstgid="17" name="Grass-Flowers" tilewidth="32" tileheight="32">
-  <image source="Video Game Tiles - Pixel by Pixel/Grass-Flowers.png" width="64" height="64"/>
+ <tileset firstgid="17" name="Dirt-Water BL" tilewidth="32" tileheight="32">
+  <image source="../Video Game Tiles - Pixel by Pixel/Dirt-Water BL.png" width="64" height="64"/>
  </tileset>
- <tileset firstgid="21" name="Grass Transition TL" tilewidth="32" tileheight="32">
-  <image source="Video Game Tiles - Pixel by Pixel/Grass Transition TL.png" width="64" height="64"/>
+ <tileset firstgid="21" name="Dirt-Water BR" tilewidth="32" tileheight="32">
+  <image source="../Video Game Tiles - Pixel by Pixel/Dirt-Water BR.png" width="64" height="64"/>
  </tileset>
- <tileset firstgid="25" name="Grass Transition TR" tilewidth="32" tileheight="32">
-  <image source="Video Game Tiles - Pixel by Pixel/Grass Transition TR.png" width="64" height="64"/>
+ <tileset firstgid="25" name="Dirt-Water TL" tilewidth="32" tileheight="32">
+  <image source="../Video Game Tiles - Pixel by Pixel/Dirt-Water TL.png" width="64" height="64"/>
  </tileset>
- <tileset firstgid="29" name="Grass-Water B" tilewidth="32" tileheight="32">
-  <image source="Video Game Tiles - Pixel by Pixel/Grass-Water B.png" width="64" height="64"/>
+ <tileset firstgid="29" name="Dirt-Water TR" tilewidth="32" tileheight="32">
+  <image source="../Video Game Tiles - Pixel by Pixel/Dirt-Water TR.png" width="64" height="64"/>
  </tileset>
- <tileset firstgid="33" name="Grass-Water T" tilewidth="32" tileheight="32">
-  <image source="Video Game Tiles - Pixel by Pixel/Grass-Water T.png" width="64" height="64"/>
+ <tileset firstgid="33" name="Dirt-Water B" tilewidth="32" tileheight="32">
+  <image source="../Video Game Tiles - Pixel by Pixel/Dirt-Water B.png" width="64" height="64"/>
  </tileset>
- <tileset firstgid="37" name="Grass-Water BL" tilewidth="32" tileheight="32">
-  <image source="Video Game Tiles - Pixel by Pixel/Grass-Water BL.png" width="64" height="64"/>
+ <tileset firstgid="37" name="Dirt-Water T" tilewidth="32" tileheight="32">
+  <image source="../Video Game Tiles - Pixel by Pixel/Dirt-Water T.png" width="64" height="64"/>
  </tileset>
- <tileset firstgid="41" name="Grass-Water BR" tilewidth="32" tileheight="32">
-  <image source="Video Game Tiles - Pixel by Pixel/Grass-Water BR.png" width="64" height="64"/>
- </tileset>
- <tileset firstgid="45" name="Grass-Water L" tilewidth="32" tileheight="32">
-  <image source="Video Game Tiles - Pixel by Pixel/Grass-Water L.png" width="64" height="64"/>
- </tileset>
- <tileset firstgid="49" name="Grass-Water R" tilewidth="32" tileheight="32">
-  <image source="Video Game Tiles - Pixel by Pixel/Grass-Water R.png" width="64" height="64"/>
- </tileset>
- <tileset firstgid="53" name="Grass-Water TL" tilewidth="32" tileheight="32">
-  <image source="Video Game Tiles - Pixel by Pixel/Grass-Water TL.png" width="64" height="64"/>
- </tileset>
- <tileset firstgid="57" name="Grass Transition BR" tilewidth="32" tileheight="32">
-  <image source="Video Game Tiles - Pixel by Pixel/Grass Transition BR.png" width="64" height="64"/>
- </tileset>
- <tileset firstgid="61" name="Dirt-Water T" tilewidth="32" tileheight="32">
-  <image source="Video Game Tiles - Pixel by Pixel/Dirt-Water T.png" width="64" height="64"/>
- </tileset>
- <tileset firstgid="65" name="Bush" tilewidth="32" tileheight="32">
-  <image source="Video Game Tiles - Pixel by Pixel/Bush.png" width="64" height="64"/>
+ <tileset firstgid="41" name="Bush" tilewidth="32" tileheight="32">
+  <image source="../Video Game Tiles - Pixel by Pixel/Bush.png" width="64" height="64"/>
   <tile id="0">
    <properties>
     <property name="blocked" value="true"/>
@@ -71,32 +53,71 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="69" name="Pebbles" tilewidth="32" tileheight="32">
-  <image source="Video Game Tiles - Pixel by Pixel/Pebbles.png" width="64" height="64"/>
+ <tileset firstgid="45" name="Pebbles" tilewidth="32" tileheight="32">
+  <image source="../Video Game Tiles - Pixel by Pixel/Pebbles.png" width="64" height="64"/>
  </tileset>
- <tileset firstgid="73" name="Dirt Transition BL" tilewidth="32" tileheight="32">
-  <image source="Video Game Tiles - Pixel by Pixel/Dirt Transition BL.png" width="64" height="64"/>
+ <tileset firstgid="49" name="Dirt Transition BL" tilewidth="32" tileheight="32">
+  <image source="../Video Game Tiles - Pixel by Pixel/Dirt Transition BL.png" width="64" height="64"/>
  </tileset>
- <tileset firstgid="77" name="Dirt-Water BL" tilewidth="32" tileheight="32">
-  <image source="Video Game Tiles - Pixel by Pixel/Dirt-Water BL.png" width="64" height="64"/>
+ <tileset firstgid="53" name="Dirt Transition BR" tilewidth="32" tileheight="32">
+  <image source="../Video Game Tiles - Pixel by Pixel/Dirt Transition BR.png" width="64" height="64"/>
  </tileset>
- <tileset firstgid="81" name="Dirt-Water BR" tilewidth="32" tileheight="32">
-  <image source="Video Game Tiles - Pixel by Pixel/Dirt-Water BR.png" width="64" height="64"/>
+ <tileset firstgid="57" name="Dirt Transition TL" tilewidth="32" tileheight="32">
+  <image source="../Video Game Tiles - Pixel by Pixel/Dirt Transition TL.png" width="64" height="64"/>
  </tileset>
- <tileset firstgid="85" name="Dirt Transition BR" tilewidth="32" tileheight="32">
-  <image source="Video Game Tiles - Pixel by Pixel/Dirt Transition BR.png" width="64" height="64"/>
+ <tileset firstgid="61" name="Dirt-Water L" tilewidth="32" tileheight="32">
+  <image source="../Video Game Tiles - Pixel by Pixel/Dirt-Water L.png" width="64" height="64"/>
  </tileset>
- <tileset firstgid="89" name="Grass-Water TR" tilewidth="32" tileheight="32">
-  <image source="Video Game Tiles - Pixel by Pixel/Grass-Water TR.png" width="64" height="64"/>
+ <tileset firstgid="65" name="Dirt-Water R" tilewidth="32" tileheight="32">
+  <image source="../Video Game Tiles - Pixel by Pixel/Dirt-Water R.png" width="64" height="64"/>
  </tileset>
- <tileset firstgid="93" name="Dirt Transition TL" tilewidth="32" tileheight="32">
-  <image source="Video Game Tiles - Pixel by Pixel/Dirt Transition TL.png" width="64" height="64"/>
+ <tileset firstgid="69" name="Dirt Transition TR" tilewidth="32" tileheight="32">
+  <image source="../Video Game Tiles - Pixel by Pixel/Dirt Transition TR.png" width="64" height="64"/>
  </tileset>
- <tileset firstgid="97" name="Dirt-Water TL" tilewidth="32" tileheight="32">
-  <image source="Video Game Tiles - Pixel by Pixel/Dirt-Water TL.png" width="64" height="64"/>
+ <tileset firstgid="73" name="Evergreen" tilewidth="32" tileheight="32">
+  <image source="../Video Game Tiles - Pixel by Pixel/Evergreen.png" width="256" height="256"/>
  </tileset>
- <tileset firstgid="101" name="Invisible Barrier" tilewidth="32" tileheight="32">
-  <image source="Video Game Tiles - Pixel by Pixel/Invisible Barrier.png" width="64" height="64"/>
+ <tileset firstgid="137" name="Water 3 - Lighted Water 2" tilewidth="32" tileheight="32">
+  <image source="../Video Game Tiles - Pixel by Pixel/Water 3 - Lighted Water 2.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="141" name="Grass Transition BL" tilewidth="32" tileheight="32">
+  <image source="../Video Game Tiles - Pixel by Pixel/Grass Transition BL.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="145" name="Grass Transition BR" tilewidth="32" tileheight="32">
+  <image source="../Video Game Tiles - Pixel by Pixel/Grass Transition BR.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="149" name="Grass Transition TL" tilewidth="32" tileheight="32">
+  <image source="../Video Game Tiles - Pixel by Pixel/Grass Transition TL.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="153" name="Grass Transition TR" tilewidth="32" tileheight="32">
+  <image source="../Video Game Tiles - Pixel by Pixel/Grass Transition TR.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="157" name="Grass-Water B" tilewidth="32" tileheight="32">
+  <image source="../Video Game Tiles - Pixel by Pixel/Grass-Water B.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="161" name="Grass-Water T" tilewidth="32" tileheight="32">
+  <image source="../Video Game Tiles - Pixel by Pixel/Grass-Water T.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="165" name="Grass-Water BL" tilewidth="32" tileheight="32">
+  <image source="../Video Game Tiles - Pixel by Pixel/Grass-Water BL.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="169" name="Grass-Water BR" tilewidth="32" tileheight="32">
+  <image source="../Video Game Tiles - Pixel by Pixel/Grass-Water BR.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="173" name="Grass-Water L" tilewidth="32" tileheight="32">
+  <image source="../Video Game Tiles - Pixel by Pixel/Grass-Water L.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="177" name="Grass-Water R" tilewidth="32" tileheight="32">
+  <image source="../Video Game Tiles - Pixel by Pixel/Grass-Water R.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="181" name="Grass-Water TL" tilewidth="32" tileheight="32">
+  <image source="../Video Game Tiles - Pixel by Pixel/Grass-Water TL.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="185" name="Grass-Water TR" tilewidth="32" tileheight="32">
+  <image source="../Video Game Tiles - Pixel by Pixel/Grass-Water TR.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="189" name="Invisible Barrier" tilewidth="32" tileheight="32">
+  <image source="../Video Game Tiles - Pixel by Pixel/Invisible Barrier.png" width="64" height="64"/>
   <tile id="0">
    <properties>
     <property name="blocked" value="true"/>
@@ -118,40 +139,19 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="105" name="Dirt-Water TR" tilewidth="32" tileheight="32">
-  <image source="Video Game Tiles - Pixel by Pixel/Dirt-Water TR.png" width="64" height="64"/>
- </tileset>
- <tileset firstgid="109" name="Dirt-Water L" tilewidth="32" tileheight="32">
-  <image source="Video Game Tiles - Pixel by Pixel/Dirt-Water L.png" width="64" height="64"/>
- </tileset>
- <tileset firstgid="113" name="Dirt-Water B" tilewidth="32" tileheight="32">
-  <image source="Video Game Tiles - Pixel by Pixel/Dirt-Water B.png" width="64" height="64"/>
- </tileset>
- <tileset firstgid="117" name="Dirt-Water R" tilewidth="32" tileheight="32">
-  <image source="Video Game Tiles - Pixel by Pixel/Dirt-Water R.png" width="64" height="64"/>
- </tileset>
- <tileset firstgid="121" name="Dirt Transition TR" tilewidth="32" tileheight="32">
-  <image source="Video Game Tiles - Pixel by Pixel/Dirt Transition TR.png" width="64" height="64"/>
- </tileset>
- <tileset firstgid="125" name="Grass Transition BL" tilewidth="32" tileheight="32">
-  <image source="Video Game Tiles - Pixel by Pixel/Grass Transition BL.png" width="64" height="64"/>
- </tileset>
- <tileset firstgid="129" name="Evergreen" tilewidth="32" tileheight="32">
-  <image source="Video Game Tiles - Pixel by Pixel/Evergreen.png" width="256" height="256"/>
- </tileset>
- <layer name="Tile Layer 1" width="80" height="80">
+ <layer name="Dirt + Grass" width="80" height="80">
   <data encoding="base64" compression="zlib">
-   eJztnMmOAyEMRDNLZt9n/v9bh0tLEQrBxuWyIX1AvqDQNC9VBpMcD4fDQ2nHpPGmtNuT6D3ed2k/iv6PpT0ljnel3Z9E7/F+S/tT9K/f53NpLxfe93tpH2ciav3r8Xv8aXlBx/p9vpb2duF9f5b2dSai1r8ev8eflhd0lL7nFndSHntca/VvlLvR57DqX4s7KY89rrX6N8rd6HOM8qflDq2HWv9F89XjHM0dWg+1/ovmq8f5avxF++/s/GXx31Hudv5s3O38xepe7XfXxh/a72blb8ujvPiT7h+i+JM+Xy+P8uJPun+I4k/6fKP5H2r9tPxZY5b8D7V+Wv6skaV/LL5m46+et7c+rMZfPe/o/Inlk1s/NI/R+RPLJ7d+aB7ZehYdvfiLriOwohd/Wfw2K4+tc+1sfpuVx9a5drQvWj/HWu+w6mG0L1o/x1rvsOphlO5k0dOs/M2ip2j+snDB4h3NXxYuWLx76R+6jt9ab/Z5Cmv/i67jt9abfZ4Stf+4Nv6275/1/su18rd9/6z3X6LzKzTP6PGz51dontHje+9Ts/GHzm+996nZ+EPnt2y9W21/w9a71fY31vyHrXfWyLp/L81/2Hpnjez792j984psXd3GY+ufV2Tr6jZeNH89PWLVUWbxX60eseoobP2L2m9ki+j1zO6/Xvx53ReN5sNbD9H6MAt/qPlm4w19Pu19HpiNN/T5tPd54M6fTh/rfHXnT6ePdb7K5o1dn/CeD5s3dn3Cez6z8Me6D7Eqf6z7ENH+24teHM3Cn9UvvTjKxt/o73PZ/irludXPmg9q8x8rf2h+pDy3+lnzwWj9iY7R+jd7jPZfto7t/Nl0LDt/2fKzbLz1+MuWn2XjLav+rcLf6jGav1nu76H+7wB9/36W+3uo/zuQ3r/34krq517jt/jLWv8d9XOv8Vv8edd/Z80DUf4qnb+Vm2wR5a/S+aP9bhX+pPNF+90q/Enn+w/XBKah
+   eJztnMmOAyEMRDNLZt9+e5aPHi4tRSgEG5fLhvQB+YJC07xUGUxyPBwOD6Udk8ab0m5Povd4z6W9KPo/lvaUON6Vdn8Svcd7Le1N0b9+n++lfVx439+l/ZyJqPWvx+/xp+UFHev3+Vna14X3/Vva35mIWv96/B5/Wl7QUfqeW9xJeexxrdW/Ue5Gn8Oqfy3upDz2uNbq3yh3o88xyp+WO7Qeav0XzVePczR3aD3U+i+arx7nq/EX7b+z85fFf0e52/mzcbfzF6t7td9dG39ov5uVvy2P8uJPun+I4k/6fL08yos/6f4hij/p843mf6j10/JnjVnyP9T6afmzRpb+sfiajb963t76sBp/9byj8yeWT2790DxG508sn9z6oXlk61l09OIvuo7Ail78ZfHbrDy2zrWz+W1WHlvn2tG+aP0ca73DqofRvmj9HGu9w6qHUbqTRU+z8jeLnqL5y8IFi3c0f1m4YPHupX/oOn5rvdnnKaz9L7qO31pv9nlK1P7j2vjbvn/W+y/Xyt/2/bPef4nOr9A8o8fPnl+heUaP771PzcYfOr/13qdm4w+d37L1brX9DVvvVtvfWPMftt5ZI+v+vTT/YeudNbLv36P1zyuydXUbj61/XpGtq9t40fz19IhVR5nFf7V6xKqjsPUvar+RLaLXM7v/evHndV80mg9vPUTrwyz8oeabjTf0+bT3eWA23tDn097ngTt/On2s89WdP50+1vkqmzd2fcJ7Pmze2PUJ7/nMwh/rPsSq/LHuQ0T7by96cTQLf1a/9OIoG3+jv89l+6uU51Y/az6ozX+s/KH5kfLc6mfNB6P1JzpG69/sMdp/2Tq282fTsez8ZcvPsvHW4y9bfpaNt6z6twp/q8do/ma5v4f6vwP0/ftZ7u+h/u9Aev/eiyupn3uN3+Iva/131M+9xm/x513/nTUPRPmrdP5WbrJFlL9K54/2u1X4k84X7Xer8Ced7z8nef3B
   </data>
  </layer>
  <layer name="Transitions" width="80" height="80">
   <data encoding="base64" compression="zlib">
-   eJztXIWu3DAQTOEXyszMzPDKzMygqsyMn945qavnWnF2ba8hpxtpFCnKi5N9k8l617mmqRMvwVct+z+Cn6x9B8CDya+oTrju/TX4pmX/Z/CLtW8MPKR8XamwBFwKLgAXgivAlRHnc927j/76hGXgcnARuBhcBa5OMI6P/lLgsfL5SHc/wV/G/h3gzkZPjwTS32HwiLE/l/6040e6+w3+MfbvAnc3+nok/R0Fjxn7+6Y/l+5cWAOuVRhXy/9C381a8XPpzoV14HqFcbX8L/TdrBW/DeBGj+Nr018otOK3CdzscTzp73EkOf3Fnl/CGPj63hRwKngdvBE59gB915+v700Dp4M3wVuRYw/Q9/xvC7gVnAHOFByv5XuEvutvG7gdnAXOFhyv9d4l9F1/BPv9Sz43B5xrbLV8j+DS333wAfgWfBew/Qp+a/i8MNX7l3xuHjjf2Gr5HsGlv4fgI/A9+CFg+x380fB5oVb8yAdT6cwFl/584TN/NjWpFT/ywVQ6c8GlP1/4zJ9NTWrWD7RrERJo6c+G7Z/khzb6Hj8t/dmw/ZP80Ebf43cZvALuAfcqbM+DF1rGcflh3+N3FbwG7gP3K2wvgpdaxnH54eCetfpSJeKnDWk+SX44uGetvtQwxE+aT5If9v351Ybtp5wfjuL3P2w/5fxwFL9ucPWdUfy6Ialva2EY4zfSnxuSvM1Hf7F5oEb8boN3mvC6HVfPM9GWtw3Gf2L83VPwWct1tukvNg+MiR/97+6C95rwuh1Xz+Ngj/8cfNFyXG3+R/+7VPUUaT/ENf5p8EwznhceB0809cSPkKqeIu2HuMY/C55rxvPCk+Cppnz8bL9z+U0spP0Qzu9slI6f1G9iIe2HcH5no0T8zPe81G+063k27P7HBHCicR3kdzZKxM98z0v9RrueZ8Puf0wCJxvXQX5nI3f8pH6ntX4g9H3O6Y6QO36++VUsQt/nnO4IuePnm1/FIrQ/Yo7fNS/LHT/f/IrgO7ek40P7I+b4XfOyWvTH+Z3v3FJyvEbfpxb95VovZUKj71Ob/kI0UfK7ttr0F6KJkt+15YifZL7R1+/VcsRPMt9I6X8pn+/a/C8FUj7ftflf35A6ftx8l+oeUv2l6o+E9E9c9xyKwblsn+Hmu1T3kOovVX8ktH+iHT/bZ7Tnu6n6IxxK1Z9D57supOqPcMhVf/at79m5BedvqfojHLrW/2lhcC7f+p6dW3D+lqo/woFb/xebYx74d65Yv5P6m1Z/JHY9NMUvNscca7q/x5X6ndTftPojseuhtZ/f2O/RpP6Wa76ce/1V7PdoUn/LNV/Jvf5Pun6YA+dvuZBbf9L1wxw4fzORsr5Sev1p6HzBx9983n2+sS61/pSuM3S+kMrffPOMUvqj69Tov5ZE6fXPGv3Xkijtf7HI3Vvznb/XHr/cvbVa1j9LdVPbb5LWsv5ZqpvafpO09Prn2snVGyXrEUPGHRZw9cbU6xGHDbnXIw4btPszw44Qv6stRyiJEL+rLUcoiZHfdYN71kZ+1w3Xs0a+l/p7k2EF+V6p/O4vbCoAzw==
+   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
   </data>
  </layer>
  <layer name="Trees" width="80" height="80">
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
 </map>
