@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" width="80" height="80" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="Dirt" tilewidth="32" tileheight="32">
-  <image source="../Video Game Tiles - Pixel by Pixel/Dirt.png" width="64" height="64"/>
+  <image source="Video Game Tiles - Pixel by Pixel/Dirt.png" width="64" height="64"/>
  </tileset>
  <tileset firstgid="5" name="Grass" tilewidth="32" tileheight="32">
-  <image source="../Video Game Tiles - Pixel by Pixel/Grass.png" width="64" height="64"/>
+  <image source="Video Game Tiles - Pixel by Pixel/Grass.png" width="64" height="64"/>
  </tileset>
  <tileset firstgid="9" name="Grass-Flowers" tilewidth="32" tileheight="32">
-  <image source="../Video Game Tiles - Pixel by Pixel/Grass-Flowers.png" width="64" height="64"/>
+  <image source="Video Game Tiles - Pixel by Pixel/Grass-Flowers.png" width="64" height="64"/>
  </tileset>
  <tileset firstgid="13" name="Grass-Mushroom" tilewidth="32" tileheight="32">
-  <image source="../Video Game Tiles - Pixel by Pixel/Grass-Mushroom.png" width="64" height="64"/>
+  <image source="Video Game Tiles - Pixel by Pixel/Grass-Mushroom.png" width="64" height="64"/>
  </tileset>
  <tileset firstgid="17" name="Oak" tilewidth="32" tileheight="32">
-  <image source="../Video Game Tiles - Pixel by Pixel/Oak.png" width="128" height="128"/>
+  <image source="Video Game Tiles - Pixel by Pixel/Oak.png" width="128" height="128"/>
   <tile id="10">
    <properties>
     <property name="blocked" value="true"/>
@@ -26,25 +26,25 @@
   </tile>
  </tileset>
  <tileset firstgid="33" name="Dirt-Water BL" tilewidth="32" tileheight="32">
-  <image source="../Video Game Tiles - Pixel by Pixel/Dirt-Water BL.png" width="64" height="64"/>
+  <image source="Video Game Tiles - Pixel by Pixel/Dirt-Water BL.png" width="64" height="64"/>
  </tileset>
  <tileset firstgid="37" name="Dirt-Water BR" tilewidth="32" tileheight="32">
-  <image source="../Video Game Tiles - Pixel by Pixel/Dirt-Water BR.png" width="64" height="64"/>
+  <image source="Video Game Tiles - Pixel by Pixel/Dirt-Water BR.png" width="64" height="64"/>
  </tileset>
  <tileset firstgid="41" name="Dirt-Water TL" tilewidth="32" tileheight="32">
-  <image source="../Video Game Tiles - Pixel by Pixel/Dirt-Water TL.png" width="64" height="64"/>
+  <image source="Video Game Tiles - Pixel by Pixel/Dirt-Water TL.png" width="64" height="64"/>
  </tileset>
  <tileset firstgid="45" name="Dirt-Water TR" tilewidth="32" tileheight="32">
-  <image source="../Video Game Tiles - Pixel by Pixel/Dirt-Water TR.png" width="64" height="64"/>
+  <image source="Video Game Tiles - Pixel by Pixel/Dirt-Water TR.png" width="64" height="64"/>
  </tileset>
  <tileset firstgid="49" name="Dirt-Water B" tilewidth="32" tileheight="32">
-  <image source="../Video Game Tiles - Pixel by Pixel/Dirt-Water B.png" width="64" height="64"/>
+  <image source="Video Game Tiles - Pixel by Pixel/Dirt-Water B.png" width="64" height="64"/>
  </tileset>
  <tileset firstgid="53" name="Dirt-Water T" tilewidth="32" tileheight="32">
-  <image source="../Video Game Tiles - Pixel by Pixel/Dirt-Water T.png" width="64" height="64"/>
+  <image source="Video Game Tiles - Pixel by Pixel/Dirt-Water T.png" width="64" height="64"/>
  </tileset>
  <tileset firstgid="57" name="Bush" tilewidth="32" tileheight="32">
-  <image source="../Video Game Tiles - Pixel by Pixel/Bush.png" width="64" height="64"/>
+  <image source="Video Game Tiles - Pixel by Pixel/Bush.png" width="64" height="64"/>
   <tile id="0">
    <properties>
     <property name="blocked" value="true"/>
@@ -67,28 +67,28 @@
   </tile>
  </tileset>
  <tileset firstgid="61" name="Pebbles" tilewidth="32" tileheight="32">
-  <image source="../Video Game Tiles - Pixel by Pixel/Pebbles.png" width="64" height="64"/>
+  <image source="Video Game Tiles - Pixel by Pixel/Pebbles.png" width="64" height="64"/>
  </tileset>
  <tileset firstgid="65" name="Dirt Transition BL" tilewidth="32" tileheight="32">
-  <image source="../Video Game Tiles - Pixel by Pixel/Dirt Transition BL.png" width="64" height="64"/>
+  <image source="Video Game Tiles - Pixel by Pixel/Dirt Transition BL.png" width="64" height="64"/>
  </tileset>
  <tileset firstgid="69" name="Dirt Transition BR" tilewidth="32" tileheight="32">
-  <image source="../Video Game Tiles - Pixel by Pixel/Dirt Transition BR.png" width="64" height="64"/>
+  <image source="Video Game Tiles - Pixel by Pixel/Dirt Transition BR.png" width="64" height="64"/>
  </tileset>
  <tileset firstgid="73" name="Dirt Transition TL" tilewidth="32" tileheight="32">
-  <image source="../Video Game Tiles - Pixel by Pixel/Dirt Transition TL.png" width="64" height="64"/>
+  <image source="Video Game Tiles - Pixel by Pixel/Dirt Transition TL.png" width="64" height="64"/>
  </tileset>
  <tileset firstgid="77" name="Dirt-Water L" tilewidth="32" tileheight="32">
-  <image source="../Video Game Tiles - Pixel by Pixel/Dirt-Water L.png" width="64" height="64"/>
+  <image source="Video Game Tiles - Pixel by Pixel/Dirt-Water L.png" width="64" height="64"/>
  </tileset>
  <tileset firstgid="81" name="Dirt-Water R" tilewidth="32" tileheight="32">
-  <image source="../Video Game Tiles - Pixel by Pixel/Dirt-Water R.png" width="64" height="64"/>
+  <image source="Video Game Tiles - Pixel by Pixel/Dirt-Water R.png" width="64" height="64"/>
  </tileset>
  <tileset firstgid="85" name="Dirt Transition TR" tilewidth="32" tileheight="32">
-  <image source="../Video Game Tiles - Pixel by Pixel/Dirt Transition TR.png" width="64" height="64"/>
+  <image source="Video Game Tiles - Pixel by Pixel/Dirt Transition TR.png" width="64" height="64"/>
  </tileset>
  <tileset firstgid="89" name="Invisible Barrier" tilewidth="32" tileheight="32">
-  <image source="../Video Game Tiles - Pixel by Pixel/Invisible Barrier.png" width="64" height="64"/>
+  <image source="Video Game Tiles - Pixel by Pixel/Invisible Barrier.png" width="64" height="64"/>
   <tile id="0">
    <properties>
     <property name="blocked" value="true"/>
