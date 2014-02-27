@@ -89,11 +89,6 @@
  </tileset>
  <tileset firstgid="89" name="Invisible Barrier" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/Invisible Barrier.png" width="64" height="64"/>
-  <tile id="0">
-   <properties>
-    <property name="blocked" value="true"/>
-   </properties>
-  </tile>
  </tileset>
  <layer name="Dirt + Grass" width="80" height="80">
   <data encoding="base64" compression="gzip">
@@ -110,9 +105,9 @@
    H4sIAAAAAAAAC+1cCY4cIQycL+TOJtlkvpHj/+8KLaUlhMC47LKhJ1MSyiqiwYbC2GDmdnviiSf+R7wm9fOmlLelvCvlPaHenSaZHvVYafu3fNPDh1I+lvKplM+EehpkcSMDL6V8KeVrKd8I9Q60XNVydyWsMh5c+F7Kj5vMY229Ay1XmdxloDdWkozZ899yFeFuDYuN0nC/N1aSjNr5/1nKr4EckowtWq4i3PVCw/3eWEkyauf/dyl/BnJIMu4EDffR+bTMvzTm1vV4IMKWtG3OuN+TgS2XNOae9WjlrqQf2mavPnP/8M6F9L2Vu5J+szZbeXr1GfuHVB8ZU6k/K3cl/do2W1lbeXoy1P+nGW9UVmQOPPZxBI//icqjGW9UVkSGTH+lty5aWWfy1H5b73uGTJIMyNpm7329dYHOX+23Wb7XyMSqj+59M0TYCi8kmTTrBa3rGYNMW6GFJBOyXrR1dxyDKCBcyV5bu5yTSXIgXMni1bl/7hKX7yKHFuf+qeF7RCzm9bdXAPWxTkT4Fl5/mwVWjCiBEYt527Ridp6cESOicYCGS7v4D9YYkbXvopxm9Mv0GazzaF3LaNw7O9exgNGGN362rmU07vWe6/TAaMMbP2fZn9m5jmUtMmTfOaapgfIzC56YZod47UT0vRorZ+fEqvke6briXs2DVWtZqytiD1fowt43tPpqdUU4tYsP7oFW35Gu7HsUBDuc3Xn1tdyjrIqdevDmZa5YQ6x9I4vr93//7pIDy9L7EeynBSv1ZtvMHWwwG8y8qxmyfVjLfKHfePKuUBmyfVjLfKHfIHlXWoxk0OZasmCZL/QbyxjVe6v3vDDyTNqqW+Z+g54XamOI0Th58ljbvtmwrCWU79oYYjROnjzWtu8RrDbFYm8Rm8Y4L2G8g5iBfXfL2tOjz0tYtot9d8va06+S78T2E9B8xdE87LC3ZbTVjkmtd6SMbDD5HumTIdzMBJPvSFvovCG5tBK89/y7IGofm+nsvee/OiS7eb/NdfbmyUch4u1jD9bxqdv15MlHIYvr1vFB242OY2f9RyGKE227bRwbvZesvvvw6jfjG/qedee9uwev/Zidm6DvWS3yrBzzaPuBvme1yLPSX1phP9i/j7DTm5NVa8HyVudEBAe0OQYReeGaflpY3upY8eL4tsUsLzwrxyfzrQ4zf2WWF+593z3qp8XOb3U8b0p7ems5+dr8fdUcHw+HenpH2MjsfWtlfnGEv5Dtw0Xdl2nfEjDbO5Dtw0X1tyqvK9s+RvWH3ueh7V3tfAAF+vsjaHuPeLavRfaby0fjKsNmeH4L7QkMO52rXBFXjlmujr9ZwzfOAGQAAA==
   </data>
  </layer>
- <layer name="INVISIBLE BARRIER" width="80" height="80">
+ <layer name="INVIS" width="80" height="80">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAC+3bQQqCQABA0a7p/S/SIiKIkJqvNeZ7MOBqcL4udNDLhVeWX5/AwenX6Nfo1+jX6Nfo15yx3zIw1ub65Xn96xjtN6s91nufdysz99uLfo1+jX6Nfo1+jX6Nfo1+zazP4kf1r+9v36Rfo1830kK/B/0a/Rr9Gv0a/Rr9xo2+g+h34/m50e99z2u2//KZ5elYv89stfd3n+ts7D83+jX6Nfo1+jX6Nfo1+jX6Nfo1+jX6Nfo1+jX6Nfo1+jX6Nfo1+jX6Nfo1+jX6Nfo1+jX6Nfo1+jX6Nfo1+jX1e9NvjhmN/qdgbH9dZ71H9qRfo19zxjVvSb9GP4B1V1OcgHYAZAAA
+   H4sIAAAAAAAAC+3QsQ3AMADDsLyZ/x/pEfJShAS8etA5AADA0n10K8uvv9Cv0a/Rr9Gv0a/Rr9Gv0a/Rr9Gv0a/Rr9Gv0a/Rr9Gv0a/Rr9Gv0a/Rr9Gv0a/Rr9Gv0a/Rr9Gv0a/Rr9Gv0a/Rr9Gv0a/Rr9Gv0a/Rr9Gv0a/Rr9Gv0a/Rr9Gv0a/Rr9Gv0a/Rr9Gv0a/Rr9Gv0a/Rr9Gv0a9Z93txAADA1geni9NCAGQAAA==
   </data>
  </layer>
 </map>
