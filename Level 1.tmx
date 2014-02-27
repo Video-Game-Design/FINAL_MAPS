@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="80" height="80" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Dirt" tilewidth="32" tileheight="32">
+  <image source="../Video Game Tiles - Pixel by Pixel/Dirt.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="5" name="Grass" tilewidth="32" tileheight="32">
+  <image source="../Video Game Tiles - Pixel by Pixel/Grass.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="9" name="Grass-Flowers" tilewidth="32" tileheight="32">
+  <image source="../Video Game Tiles - Pixel by Pixel/Grass-Flowers.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="13" name="Grass-Mushroom" tilewidth="32" tileheight="32">
+  <image source="../Video Game Tiles - Pixel by Pixel/Grass-Mushroom.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="17" name="Oak" tilewidth="32" tileheight="32">
+  <image source="../Video Game Tiles - Pixel by Pixel/Oak.png" width="128" height="128"/>
+  <tile id="10">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="33" name="Dirt-Water BL" tilewidth="32" tileheight="32">
+  <image source="../Video Game Tiles - Pixel by Pixel/Dirt-Water BL.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="37" name="Dirt-Water BR" tilewidth="32" tileheight="32">
+  <image source="../Video Game Tiles - Pixel by Pixel/Dirt-Water BR.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="41" name="Dirt-Water TL" tilewidth="32" tileheight="32">
+  <image source="../Video Game Tiles - Pixel by Pixel/Dirt-Water TL.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="45" name="Dirt-Water TR" tilewidth="32" tileheight="32">
+  <image source="../Video Game Tiles - Pixel by Pixel/Dirt-Water TR.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="49" name="Dirt-Water B" tilewidth="32" tileheight="32">
+  <image source="../Video Game Tiles - Pixel by Pixel/Dirt-Water B.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="53" name="Dirt-Water T" tilewidth="32" tileheight="32">
+  <image source="../Video Game Tiles - Pixel by Pixel/Dirt-Water T.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="57" name="Bush" tilewidth="32" tileheight="32">
+  <image source="../Video Game Tiles - Pixel by Pixel/Bush.png" width="64" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="61" name="Pebbles" tilewidth="32" tileheight="32">
+  <image source="../Video Game Tiles - Pixel by Pixel/Pebbles.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="65" name="Dirt Transition BL" tilewidth="32" tileheight="32">
+  <image source="../Video Game Tiles - Pixel by Pixel/Dirt Transition BL.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="69" name="Dirt Transition BR" tilewidth="32" tileheight="32">
+  <image source="../Video Game Tiles - Pixel by Pixel/Dirt Transition BR.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="73" name="Dirt Transition TL" tilewidth="32" tileheight="32">
+  <image source="../Video Game Tiles - Pixel by Pixel/Dirt Transition TL.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="77" name="Dirt-Water L" tilewidth="32" tileheight="32">
+  <image source="../Video Game Tiles - Pixel by Pixel/Dirt-Water L.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="81" name="Dirt-Water R" tilewidth="32" tileheight="32">
+  <image source="../Video Game Tiles - Pixel by Pixel/Dirt-Water R.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="85" name="Dirt Transition TR" tilewidth="32" tileheight="32">
+  <image source="../Video Game Tiles - Pixel by Pixel/Dirt Transition TR.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="89" name="Invisible Barrier" tilewidth="32" tileheight="32">
+  <image source="../Video Game Tiles - Pixel by Pixel/Invisible Barrier.png" width="64" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Dirt + Grass" width="80" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2cyY7EIAxEe5aeffv/rx00UkatSAgcV7nsJAfkS6sh+FE2weR6uVyeWrue9s++tvZm+P1zay+n/bfvrX0Yfr+ez8/WvoD+sdpR/9HjsfL33doP0D9WO+o/ejxW/li6YeWKxR16HFG6YeWKxR16HOp4p9ZPL+fqeKfWTy/nal6qWzUv1S0rzh3FsuLcUazafyPe71q7v7Hq8WXXvzXvD6093lj1+Gb5Q+dRW3VVxd/s+Hrzis6jtuqqir/Z8an9l5U/tf6h4nZV/Yviqxp/6+dW81WNv/Vzo/lg263rgLVe0Hyw7dZ1wFovXv+o+VNbr3/U/KmtN95m44PFd28/5o232fhg8d3bj7HyM1S8s57rResrKz9DxTvruV60vrL4U+Vj1vFk5U+Vj1nHg+bPykX2+MvOH7xcZI+/7PzBmu+g8y00v1n0b/b9c7b9hVr/vP5m8zfSZxR/y/pj179E8zfSZxR/y/rLXv+yV/1Tx8sq+he1T83CH7q+IWqfmoU/dH1DtN6N/B8dz6vp38j/0fGcvf9gn/NG8zd6X4jibzb/yZY/jngavS/Mrn9RusqO/0t/6vyPpavs+L/0p+Ym6r5d1Pu/aBt13y76/d9Wf1ar11fx1/NntXp9FH/VuEHpIYq/atyg9LB6/he9/8hWf4DWH/b+I1v9wV7568WDdb568mc7L17nq9n4i+bZ2182/qJ59vZXhT9WPYT1/6vyx6qHsP6/mj9rvah6fWTjz1ovql4fW/lT3W+z8jerW977zL356M2r6n6blb9Z3fLeZ+7Nh1o/1PlbNf3Llr+x9E8Vl0/+fHG5On/s726g9VE9HnScitZH9XjU/tsbf9ltdf7U53Sz/EXV1VrnW31ON8tfVF0tm6vZeB79PSzU87K5mo3n0d/DQj2vl5us+he1brzcZNW/qHWD8tfRvoeFrj892vewluf9BVSUE5AAZAAA
+  </data>
+ </layer>
+ <layer name="Border Trees + Dirt Transition" width="80" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+1c527eMAz0K3SmK226d9Om80/33nu8/5OUHwoBBiGaQxQlFT7g4CJxbY0zRYqMpmnFihUrVrTEPuB+4AHgwQr3e+Dowu+2Z//eET5P2gfJfYeAh4FbwCOCd2vv98aO4f/gccB9oMZJ0tfN3B4DHgeeWHgWdf8IwOOA+0CNU66veHw2+j8JPDX9m1tuzPH9Lb5nClRb8DjgPlCawPdtwI2PVl+5523Tt1cF1bfcOEyK38/BjY/mWZLnRSKiLdz4vAW+A94C7s2uP4G/DM+LRA9teQ/8ALwNvDO7/gb+MT6z1ffcAh+BnzI//wr8FtyWEfEZ+CXz8+/AH8FtwWhtXyXoTX+W+KIletbfCMD6ewh8NK32Twqsv8fAJ9P/oz/KP/O6XgfeyLy3V/1p40fKP/O67gJvZt7bq/60+0HU+sgh2TEretWfNmaj1kcOyY5Z0VJ/S9+oNmaz6q8UlP687DEVX2/guWdr1V8pKP152eOl+NpzX4XS32ngGeBd4L0K16fAZ4r2cMD2eMm+eu6rUPo7CzwHvA98UOH6HPhC0R4O2B5H2dfe4lMvexzV/t7iUy97rG2/Ne8yiv4oe3weeCFzv7b91jV5FP1R9vgi8FLmfm37rWsyNd+XgVemOv6XpT2Unrj7pft91jWZmu+rwGtTHf/L0h5KT62/H2p/rhRW++mtvxw8c/TU/lwprPMfoT/P+K1W/Nuz/jzjt1rxb8/684zfXgJfTfY41sv/StDmS1r7r6+BbyZ7HOvlfyVo8yWc/qxrRVQdmLf/qM2XcPqzrhVRdZ3e/qM2X8Lpz7pWRNWB1fIfMUriD8taEVV7Vct/xOg1/ihFVP7EY/3tqTY4ISp/4qG/1rX+OZT6j7XyJTn99VQbnFDqP9bKl+T010M9bm9oHX+MjtHX39ZY9VeG0fVXu34Q51Pw+0arL8SoXT+I8yn4faPVF2JExx/S9831p4k7omOU6PhD+r65/jRxR3SMEqW/tJ9I2TuMuf40cUd0jBKlv7SfSNk7jLn+NHFHdIziXT9I5VMSqP1F/D4qXu4N3vWDVD4lgdpfxO+j4uXeIM1/SOthrPZ0FH8PQ5r/kNbDWO3pKP4eBqcX7d+7WfcTR7F3GJxetH/vZt1PxPau5O9UI31oqb3i8sHWesEaiPShpfaKyweXnIfgDS8fWqJjbK84/41CT+unlw8t0TG2V5z/RmHE9bPG2VS9+2+ea4P2bCoJavpvXN9rnA+3hBp7DZz/VlIvyPXdcj4chkafNfYaOP+tpF6Q67tED1yfa/supfajJF/mee4Zhdr7f6Xz03u+rPb+X+n8ROVre6y12qB0fqL0FxWDRc+Th/4kbY6Kwbh58h5fD/1JtEV9J9r+lJ5P6v0deOivRFva/pSeT+q9nnvor8QGa/tTau+91/OkP815GZ4YvYYy6a/VeRkU/gLvDdRSAGQAAA==
+  </data>
+ </layer>
+ <layer name="Trees 1" width="80" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+1cCY4cIQycL+TOJtlkvpHj/+8KLaUlhMC47LKhJ1MSyiqiwYbC2GDmdnviiSf+R7wm9fOmlLelvCvlPaHenSaZHvVYafu3fNPDh1I+lvKplM+EehpkcSMDL6V8KeVrKd8I9Q60XNVydyWsMh5c+F7Kj5vMY229Ay1XmdxloDdWkozZ899yFeFuDYuN0nC/N1aSjNr5/1nKr4EckowtWq4i3PVCw/3eWEkyauf/dyl/BnJIMu4EDffR+bTMvzTm1vV4IMKWtG3OuN+TgS2XNOae9WjlrqQf2mavPnP/8M6F9L2Vu5J+szZbeXr1GfuHVB8ZU6k/K3cl/do2W1lbeXoy1P+nGW9UVmQOPPZxBI//icqjGW9UVkSGTH+lty5aWWfy1H5b73uGTJIMyNpm7329dYHOX+23Wb7XyMSqj+59M0TYCi8kmTTrBa3rGYNMW6GFJBOyXrR1dxyDKCBcyV5bu5yTSXIgXMni1bl/7hKX7yKHFuf+qeF7RCzm9bdXAPWxTkT4Fl5/mwVWjCiBEYt527Ridp6cESOicYCGS7v4D9YYkbXvopxm9Mv0GazzaF3LaNw7O9exgNGGN362rmU07vWe6/TAaMMbP2fZn9m5jmUtMmTfOaapgfIzC56YZod47UT0vRorZ+fEqvke6briXs2DVWtZqytiD1fowt43tPpqdUU4tYsP7oFW35Gu7HsUBDuc3Xn1tdyjrIqdevDmZa5YQ6x9I4vr93//7pIDy9L7EeynBSv1ZtvMHWwwG8y8qxmyfVjLfKHfePKuUBmyfVjLfKHfIHlXWoxk0OZasmCZL/QbyxjVe6v3vDDyTNqqW+Z+g54XamOI0Th58ljbvtmwrCWU79oYYjROnjzWtu8RrDbFYm8Rm8Y4L2G8g5iBfXfL2tOjz0tYtot9d8va06+S78T2E9B8xdE87LC3ZbTVjkmtd6SMbDD5HumTIdzMBJPvSFvovCG5tBK89/y7IGofm+nsvee/OiS7eb/NdfbmyUch4u1jD9bxqdv15MlHIYvr1vFB242OY2f9RyGKE227bRwbvZesvvvw6jfjG/qedee9uwev/Zidm6DvWS3yrBzzaPuBvme1yLPSX1phP9i/j7DTm5NVa8HyVudEBAe0OQYReeGaflpY3upY8eL4tsUsLzwrxyfzrQ4zf2WWF+593z3qp8XOb3U8b0p7ems5+dr8fdUcHw+HenpH2MjsfWtlfnGEv5Dtw0Xdl2nfEjDbO5Dtw0X1tyqvK9s+RvWH3ueh7V3tfAAF+vsjaHuPeLavRfaby0fjKsNmeH4L7QkMO52rXBFXjlmujr9ZwzfOAGQAAA==
+  </data>
+ </layer>
+ <layer name="INVISIBLE BARRIER" width="80" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3bQQqCQABA0a7p/S/SIiKIkJqvNeZ7MOBqcL4udNDLhVeWX5/AwenX6Nfo1+jX6Nfo15yx3zIw1ub65Xn96xjtN6s91nufdysz99uLfo1+jX6Nfo1+jX6Nfo1+zazP4kf1r+9v36Rfo1830kK/B/0a/Rr9Gv0a/Rr9xo2+g+h34/m50e99z2u2//KZ5elYv89stfd3n+ts7D83+jX6Nfo1+jX6Nfo1+jX6Nfo1+jX6Nfo1+jX6Nfo1+jX6Nfo1+jX6Nfo1+jX6Nfo1+jX6Nfo1+jX6Nfo1+jX1e9NvjhmN/qdgbH9dZ71H9qRfo19zxjVvSb9GP4B1V1OcgHYAZAAA
+  </data>
+ </layer>
+</map>
