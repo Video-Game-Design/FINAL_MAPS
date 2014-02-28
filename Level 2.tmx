@@ -79,6 +79,26 @@
  </tileset>
  <tileset firstgid="137" name="Water 3 - Lighted Water 2" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/Water 3 - Lighted Water 2.png" width="64" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
  </tileset>
  <tileset firstgid="141" name="Grass Transition BL" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/Grass Transition BL.png" width="64" height="64"/>
@@ -118,6 +138,26 @@
  </tileset>
  <tileset firstgid="189" name="Invisible Barrier" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/Invisible Barrier.png" width="64" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
  </tileset>
  <layer name="Dirt + Grass" width="80" height="80">
   <data encoding="base64" compression="gzip">

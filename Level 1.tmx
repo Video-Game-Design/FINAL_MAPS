@@ -89,6 +89,26 @@
  </tileset>
  <tileset firstgid="89" name="Invisible Barrier" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/Invisible Barrier.png" width="64" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
  </tileset>
  <layer name="Dirt + Grass" width="80" height="80">
   <data encoding="base64" compression="gzip">
@@ -97,12 +117,12 @@
  </layer>
  <layer name="Border Trees + Dirt Transition" width="80" height="80">
   <data encoding="base64" compression="gzip">
-   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
+   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
   </data>
  </layer>
  <layer name="Trees 1" width="80" height="80">
   <data encoding="base64" compression="gzip">
-   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
+   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
   </data>
  </layer>
  <layer name="INVIS" width="80" height="80">
