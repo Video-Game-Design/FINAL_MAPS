@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="80" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Road" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Road.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="5" name="Sidewalk" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Sidewalk.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="9" name="Sidewalk Cracked" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Sidewalk Cracked.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="13" name="Car Profile" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Car Profile.png" width="192" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="25" name="Building 1" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Building 1.png" width="256" height="384"/>
+ </tileset>
+ <tileset firstgid="121" name="Building 2" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Building 2.png" width="256" height="512"/>
+ </tileset>
+ <tileset firstgid="249" name="Car BK" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Car BK.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="255" name="Car BL" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Car BL.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="261" name="Car RD" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Car RD.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="269" name="Car Profile Blue" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Car Profile Blue.png" width="192" height="64"/>
+ </tileset>
+ <tileset firstgid="281" name="Car Profile Red" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Car Profile Red.png" width="192" height="64"/>
+ </tileset>
+ <tileset firstgid="293" name="Invisible Barrier" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Invisible Barrier.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="297" name="Road MH" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Road MH.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="301" name="Road MV" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Road MV.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="305" name="Rubble 1" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Rubble 1.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="309" name="Rubble 2" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Rubble 2.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="313" name="Rubble 2 L" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Rubble 2 L.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="329" name="Building 3-F" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Building 3-F.png" width="192" height="384"/>
+ </tileset>
+ <tileset firstgid="401" name="Building 3-S" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Building 3-S.png" width="192" height="320"/>
+ </tileset>
+ <layer name="Roads" width="100" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2cyY6cQBBEezy2x9v/f6+5IKESReUWmZE0BxTqBSiGeETWMv3xer2+bdtHA/2xbT8P+nvb/hC0K1I/t+17E/3atl8H/btt/wjaFanVfrDwsXOxv9YeJ7pt787HzsX+Wnuc6La9Ox/W/EC38V35sOYHuo1d+Rh9PvO99H0WPiI4YfD5zPfS91n4iOCEoT7S8qDloyrz2PmY+VzLg5aPqsxj5WPlb696+bBeV1c+Vv72qpcP63V158Pbr2bVrnx4+9Ws2pUPa7+BXbvyYe03sOvDB5c+fHBpNz68407s2o0P77gTu3bjIzs/tONf3vZ14yM7P7TjX972decDvS7EysNqnPmufKDXhVh5WI0zW/jQ/p0r8yM6T6J40Lbzio/PxXcY+EDlSRQP2nau8mPfjvelkg+rf1F1lTbnVnkizY/jfZnlSwYfVv+i6iptzq3yRFtfHe9JJR8zH4+q5SRqnt3Ltaa+mnGSycfMx6NqOYmaZ/dyLeXjipMKPqT+s9Y/6PEyKSfSemqsx7L5kPrPWv+gx8uknEiPd7wnjOpdr4geJ1u1Q8PHyAkDH946B92v0bZPy0dXTtD9F6la+zdSTqp58NY12ePH1v6NRBk46KZILhk46KZILhn81kVndVXkfA6D37rorK6KnM9h8N2sftH2z1F54B037s7HajyranwKWVcx8BE9z631qfX4yHX6TM/jbJ9aj49cp8+UD1pfzt5f1Tur/Sr7/0z5oPXl7P1VvbPar7L/z5gT1uNb6zL0eBcbH9nz5lHrRio0IydWeYDmMKPf0IEPaR6gOczoNzDzUf28rug3XJ1/VsedPR8q8yI7r7L+v1da/509HzK5uOPvHVqu/4qTTC7u+HuHluu/4iSjnqr2LSsXZ9/LqKeqfcvKxdn3ED656++UWOu4cd+rdcsIn9z1d0qsddy479W65Qy/VPsYzYU1N8/qrAy/VPsYzYU1N8/qrIePuDqKbf3V3fnIGHfIfK5W+xt1Xazrr6rGi6rzgn39lXS+m52fivkTpJ9W893s/FTMnzDUI171rhPRzieO/W52PrT1iFe960S084ljv7sLH9L6JMrXXr9Lcw7BRQYf0vokytdev0tzDsFFJh/R+YLOh9nnSC4y+YjOF3Q+zD5HcsHAh1Wrzp1xDoY6X6tV5844B4Pf2XnKbC+D39l5ymwvg38ffS8+Omm1Hx59+GDW/6iuT4AAfQAA
+  </data>
+ </layer>
+ <layer name="Objects" width="100" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3a11LDMBCF4YTeQnqh1xeg8/5vRedwQTKTYuQgWWv5/2YON2QSkGBXklWrAbDmoV6rPdZj/xT49aS5eGY+AGCMPmULfQoAEMuB+s+hcqQcKyfKKT0pmjON/blyoVwqV8o18zHW0FjsK02lpbSVTsTxqfqauqvfvaf0lYEyVEZ/jMeNvn8baMxYU+d3p/G6Z8wAJ641v4y9oaHsK02lpbSVTsDP89ELXGt+GXtDV+kpfWWgDJVRwM+jF6DMQtXcoutiKlxrbt55K7ouVk0Ze+U8IfeayI/1BQAgBV8/X9TP6vQ0E1Y0D6vKWgnng7WqLaxVgVkvyqvylvGalGqZ9Tsy78qH8pnxGl+1zML9C+7ITCxz/yK2mGfpZXwmG5rLWfq6xmxD2VS2PI5fKufMWUL0wm29346yq+wteG/2pvPFWteXeW8KFInn7bbwvB2IL6VzlRRwRgzMok7ZQp1CFXHea0sVzntDoafaQk8tr5Sejbjcx7AupWcjLvcxLGGNZIvPNRJzOxHqDkMeKa5/l70T5nKHwYeq/Q+EvBM2vQdZZu2R4v9ALNN7kEVrD/aOtrB39KNqtd06ajvyojfZQm8CZuWpUymdL1uVp06ldL4MALH5Xrdn7eVj7hEsnjHMe5bhe92etZfP+qzQc2XxjMHnswzfa8f//l1UfX9e5NrRpdawPy+OxVoDVNE3mQdxYwB9AAA=
+  </data>
+ </layer>
+ <layer name="Buildings" width="100" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3c1XPdRhTHceXPKNdtU+Y2KUOKYWZ2mJnZYWZmh5mZHaYyc5MyMzz265k+dKayvFfSOau9V7+Zz1tys94zVnbPrq7nZUdqlPG8mqiF2qiDumX+/+cKMBKjMBpjMBbjMF5xvBK5AlfiKlyNa3AtrsP1ymOpx9zXRwM0RCM09qnHBEzEJEzGFEzFNExXHK9E8nADbsRNKIubcQtuVR5LE+a+KZqhOVqgpU89ZmAmZmE25mAu5mG+4nglchtuxx24E3fhbtyDe5XHks/ct0JrtEFbtPOpxwIsxCIsxhIsxTIs1xuuSO7D/XgAD6IcyuMhPKw8lvbMfQd0RCd0RhefehRiBVZiFVZjDdZineJ4JfIIHsVjeBxP4Ek8haeVx9KVue+G7uiBnujlU4/12ICN2ITN2IKt2KY4XolUwDN4Fs/hebyAF1FReSy9mfs+6It+6I8BPvXYjh3YiV3YjT3Yi32K45VIJVRGFVRFNVRHDdRUHstA5n4QBmMIhmKYTz324wAO4hAO4wiO4pjecEVSC7VRB3VRD/XRAA1j+PxM1tPDmfsRKMBIjMJon3oU4ThO4CRO4TTO4GwMY5ZOJX6myqiCqqiG6v/+nI3QGE3QFM3QHC3QMoZ/O5P19BjGNBbjMB4TMNGnHudwHhdwES/hZbyCV2MYs3SC9r35aIXWaIO2aIf26GD4+UH1zmQ9PYm/MxlTMBXTMN2nHq/hdbyBN/EW3sY7eNdwzDYTtO/tiE7ojC7oim7ojh6Gnx9Ub4n19Ht4Hx/gQ3yEj/EJPg35mZoJ2vf2RC/0Rh/0RT/0xwDDzw+qt8R6+hIu4zN8ji/wJb7C1yE/UzOm+96wCaq3xHr6G3yL7/A9fsCP+Ak/R/g5tGK67w2boHpLrKd/wa/4Db/jD/yJv/B3hJ9DK6b73rAJqrf0eloyAzEIgzEEQzEMwzEiwuea7nvDJqje0utpyRR4MucspvvesAmqdxzraVuROmcx3feGTVC941hP24rUOYvpvjdsguodx3raVqTOWUz3vWEjXW9bKfTcPGeRrretZPM5i4uRPGdJ0j0SVyJ5zpLnJeceiSsp8uTOWZJ0j0QiM/j/aiZmYTbmYG7E/8Mkz1mSdI9EIvOY+/lYgIVYhMUR6yF5zpKkeyQSWcLcL8UyLEchVkSsh+Q5i0TfO0lZydyvwmqswVqsi1iPS57cOUuS7pFIZD1zvwEbsQmbsSViPSTPWVzue5tkK3O/DduxAzuxK2I9JM9ZXO57m2Q3c78He7EP+3EgwT0Cl/veJjnI3B/CYRzBURxLcD1c7nubpIi5P44TOIlTOJ3gerjc9zbJGeb+LM7hPC7gYoLrkSaNy5Hov6QJH4n+S5rwkei/pAkfif5LaUmfkSVHov9SWtJnZMmR6L+UFu1npEu/jzb6L9rPSJd+H230X7SfkbbWLEHvb5UUG/0X7WekjTVLcUy/p+a/sdF/0X5G2lizFMf0e2psJ45nZCb3umysWYpj+j01thPHMzLPM7/XZevMSPp9vbgSxzMyk3tdts6MpN/XS1Iyuddl68xI+n29JCWTe122zoyk39dLUip4yb/XJf2+XpLiwr0u6ff1khQX7nVl6/tbfnHhXlfY97dcfGcm38vee12Z7K2Skmy+16X1zkyYfmdJyeZ7XVrvzITpd+ZitN6ZcaXfaTtaeytX+p22o7W3cqXfaTtae6tc6ndGidbeKpf6nVGitbfKpX5nlGjtrXKp3xklWnurXOp3uhDpfqdGHy7OHoPtSH9flUYfLu0xmEejD5f2GMyj0YdLewzm0ejDpT0G82j04dIeg3k0+nBpj8E8Gn24tMdgHo0+XNpjMI9GHy7tMZhHow+XS3eqokajD5fk78T+BxTAWscAfQAA
+  </data>
+ </layer>
+ <layer name="INVIS" width="100" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3dKRKAMBQFweQwLPc/IVgElgxV3ebJmD86YwAAALRtc4x92rf92nG/eU77tl9bdQd1q/vgSR8t+mjRR4s+WvTRoo8WfbToo0UfLfpo0UeLPlr00aKPFn206KNFHy36aNFHiz5a9NGijxZ9tOijRR8t+mjRR4s+WvTRoo8WfbToo0UfLfpo0UeLPlr00aKPFn206KNFHy36aNFHiz5a9NGijxZ9tOijRR8t+mjRR4s+WvTRoo8WfbToo0UfLfpoWd2H9b/BHxYAAKDuAjCaoSAAfQAA
+  </data>
+ </layer>
+</map>
