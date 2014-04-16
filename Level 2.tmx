@@ -1,0 +1,953 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="80" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Road" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Road.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="5" name="Road MV" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Road MV.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="9" name="Road MH" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Road MH.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="13" name="Sidewalk" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Sidewalk.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="17" name="Sidewalk Cracked" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Sidewalk Cracked.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="21" name="Building 1" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Building 1.png" width="256" height="384"/>
+  <tile id="72">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="79">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="80">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="87">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="88">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="89">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="90">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="91">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="92">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="93">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="94">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="95">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="117" name="Building 2" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Building 2.png" width="256" height="512"/>
+  <tile id="96">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="103">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="104">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="111">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="112">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="119">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="120">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="121">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="122">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="123">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="124">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="125">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="126">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="127">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="245" name="Building 3-F" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Building 3-F.png" width="192" height="384"/>
+  <tile id="54">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="59">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="60">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="65">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="66">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="67">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="68">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="69">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="70">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="71">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="317" name="Building 3-S" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Building 3-S.png" width="192" height="320"/>
+  <tile id="42">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="46">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="48">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="52">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="54">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="55">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="56">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="57">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="58">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="377" name="Building 3-S2" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Building 3-S2.png" width="192" height="320"/>
+  <tile id="43">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="47">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="49">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="53">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="55">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="56">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="57">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="58">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="59">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="437" name="Dirt" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Dirt.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="441" name="Dirt-Water B" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Dirt-Water B.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="445" name="Dirt-Water T" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Dirt-Water T.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="449" name="Dirt-Water R" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Dirt-Water R.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="453" name="Dirt Transition TR" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Dirt Transition TR.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="457" name="Dirt Transition BL" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Dirt Transition BL.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="461" name="Grass" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Grass.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="465" name="Grass-Water B" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Grass-Water B.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="469" name="Grass-Water T" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Grass-Water T.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="473" name="Grass-Water R" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Grass-Water R.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="477" name="Grass Transition TR" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Grass Transition TR.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="481" name="Grass Transition BL" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Grass Transition BL.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="485" name="Barbed Wired" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Barbed Wired.png" width="128" height="64"/>
+  <tile id="4">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="493" name="Barbed Wire S" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Barbed Wire S.png" width="32" height="128"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="497" name="Sidewalk Fragmented" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Sidewalk Fragmented.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="501" name="Sidewalk Fragments" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Sidewalk Fragments.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="505" name="Sewer Grate" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Sewer Grate.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="509" name="Car BK" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Car BK.png" width="96" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="515" name="Car BL" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Car BL.png" width="96" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="521" name="Car RD" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Car RD.png" width="101" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="527" name="Garbage Can" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Garbage Can.png" width="64" height="64"/>
+  <tile id="2">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="531" name="Exit" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Exit.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="535" name="Sidewalk Curve 1" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Sidewalk Curve 1.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="539" name="Sidewalk Curve 2" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Sidewalk Curve 2.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="543" name="Sidewalk Curve 3" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Sidewalk Curve 3.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="547" name="Sidewalk Curve 4" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Sidewalk Curve 4.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="551" name="Trash" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Trash.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="559" name="Car Profile Blue" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Car Profile Blue.png" width="192" height="64"/>
+  <tile id="6">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="571" name="Car Profile Red" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Car Profile Red.png" width="192" height="64"/>
+  <tile id="6">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="583" name="Car Profile" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Car Profile.png" width="192" height="64"/>
+  <tile id="6">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="595" name="Sidewalk Curb" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Sidewalk Curb.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="599" name="Sidewalk Curb 2" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Sidewalk Curb 2.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="603" name="Sidewalk Curb 3" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Sidewalk Curb 3.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="607" name="Sidewalk Curb 4" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Sidewalk Curb 4.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="611" name="Sidewalk Curb 5" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Sidewalk Curb 5.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="615" name="Sidewalk Curb 6" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Sidewalk Curb 6.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="619" name="Sidewalk Corner 1" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Sidewalk Corner 1.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="623" name="Sidewalk Corner 2" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Sidewalk Corner 2.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="627" name="Sidewalk Corner 3" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Sidewalk Corner 3.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="631" name="Sidewalk Corner 4" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Sidewalk Corner 4.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="635" name="Sidewalk Curb 6" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Sidewalk Curb 6.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="639" name="Sidewalk Corner Curve 1" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Sidewalk Corner Curve 1.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="643" name="Sidewalk Corner Curve 2" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Sidewalk Corner Curve 2.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="647" name="Sidewalk Corner Curve 3" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Sidewalk Corner Curve 3.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="651" name="Sidewalk Corner Curve 4" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Sidewalk Corner Curve 4.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="655" name="Crosswalk" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Crosswalk.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="659" name="Crosswalk V" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Crosswalk V.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="663" name="Rubble 1" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Rubble 1.png" width="64" height="64"/>
+  <tile id="2">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="667" name="Rubble 2" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Rubble 2.png" width="64" height="64"/>
+  <tile id="2">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="671" name="Parking Lot" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Parking Lot.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="675" name="Car Profile Blue F" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Car Profile Blue F.png" width="192" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="687" name="Car Profile F" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Car Profile F.png" width="192" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="699" name="Car Profile Red F" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Car Profile Red F.png" width="192" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="711" name="Melee Spawn" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Melee Spawn.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="enemy" value="melee"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="712" name="Sentry Spawn" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Sentry Spawn.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="enemy" value="sentry"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Base" width="100" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2cWW4CMRBEcfaNkPvfI8slslwny0f6DzBIeDz2dFe5PqySELKfcBUeioH1arV6tLFurMnG2Y5e2rg68njrddH5NzaeOui5jYsdvbZxc+TxXuuj8rP5a65+G9hPUj6i6K+90H9J+YimykcsVT5iqfIRS5WPZa+fovKz+av0+ikqf77fUl/N91vqq95+kCofkfXWxl0HLfVDr/VR+e9tPHTQUj/0Wh+V3/v9UqrzI7J6+0GqfETWXj1Qvu+t+p/S/qn2+aj91akeKN/3Vv1Paf9U+3zv/mq0fjc6/2j9bnR+Nn+h87P5C52fzV/o/Gz+Qudn8xc6P5u/0PnZ/IXOz+YvdH42f6Hzs/kLnZ/NX+j8bP5C52fz19L8td+vKB99+Gu/X1E+MPi9/eWdg2j83vdTSPfV+34K6b56+0GqfERWtvvD0fnZ7g9H5/d+v5Tq/Iis3n6QKh+RtbRXmdpj5vveq/9pNQ9afzW1x8z3vVf/02qeKP0Vaj+a/48bGj9bv5v/jxsaP1s+Rj8/ovpL+WjrLxQdJR8oOko+vHvc0n53lHx497il/e5S+Xi3jf5Ih6rzwycfnzbxVzpUnR8++Xi21/4lbXXpfMydd6p685/SV5v4LW116XzMnXeqevOz5aM2J9H4WfJRm5No/FGvr3p9/kHl976+6vX5B5WfzV/o/Gz+Qudn8xc6P5u/0PnZ/IXOz+YvdH42f6Hzs/kLnZ/NX0vz6/fnsfKh35/HyofOj1j5aL3uP5wwAWkAfQAA
+  </data>
+ </layer>
+ <layer name="Transitions" width="100" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3aR2oDQRBG4em5Pzh763AL55y9cc7ZB3GBEYISQtJC4Unvg6IYmMVPd/WmZ6pKkiRJktjm6qqarzv3UUXPny1E1sW6cx9V9PwNU5Fxuoecvb7fb/T82Uxkm+0hX6/v9xs9f0afL3r+jD5f9PwZfb7o+TP6fNHzZ/T5oufP6PNFz5/R54ueP6PPFz1/O/T7H3r+jH7/Q88vSZIkSZIkSZI07ujf1+j5M/r3NXr+Bvr/GfT8Gf3/DHr+jD5f9PwZfb7o+TP6fNHzZ/T5oufP6PNFz5/R54ueP6PPFz1/Rp8vev526Pc/9PwZ/f6Hnl+SJEn/rkpVXZfW/hb1XoadbvLcxJrfltb+EfXpfgzcWqz5emn2o6jjqKeoZ/dj4DZizTdLs59EnUa9RL26H0O3F3uwDzgfS3VVLdfdP1MdxB4cAs7HSqz1at39M5XnY7R4PoZrK9Z8uzT7WdQ54HyMq51Y893S7BdRl4DzMa7uYs3vS2v/ivp2PwbuIdb8sbT2n6hf90OSJEmSJE2gP+7UaygAfQAA
+  </data>
+ </layer>
+ <layer name="Curbs" width="100" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2auU7EMBgGV3lF7rPlkBANFU+PU6SZZu0QE0/4RkJp1utBml+rODmd+nAxnf/MZcVn9sLuT64qXK8H/n/s/sTel92f2Puy+xN7X3Z/Yu/L7k/sfdn9ib0vuz+x92X3J/a+9vK/Kd95O21//axw/eqwr90/hBBCCCGEEP6Ku3IPcj9tf/2ouLf57rCv3b8X9vMfuz/J+dVY2Puy+xN7X3Z/Yu/L7k/sfdn9ib0vuz+x92X3J/a+7P7E3pfdn9j7svsTe192f2Lvy+5P7H3Z/Ym9L7s/sfdl9yf2vuz+xN6X3Z/Y+7L7E3tfeb99rGvebw8hhBBCCCEcHfv74fM+Pd4zz/vt6/fpcY6U86v1+/Q4R7Kfv5HMx1hkPsYi8zEWmY+xqOlri+cH83OKHs8hap5/HG0+7BxtPuxkPsYi8zEWR5uPNec/NedKW+xXs8/R5mNNXw9lzeOKdS9lzWvDutx/1PFU1jw3zsk8F2/l771hzX+8//hNX7Vz0joXC5mPNpY5Ofc70DoXC5mPsbD7E3tfdn9i78vuT+x92f2JvS+7P7H3Zfcn9r7s/sTel92f2Puy+xN7X3Z/Yu/L7k/sfdn9ib0vuz+x97WX/w+fZrgmAH0AAA==
+  </data>
+ </layer>
+ <layer name="Objects" width="100" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+1dVZIbMRC1HWa4RJiZmTmXC+cnzMyMNwlnE18g8LZSUxmrxoIWTPdYr+p9uHZHo7aa1GrttlppMafTas0F54HzO4lfToTEOVNxBPIdbbiMknAMa3E8r0cGER/ardZH8BP4uV33bNwgee798AVyfAW/gd+FySR57k1GbDuZgvgzlRCDTuCZk5rn+s2bi93byq3KGdtOpuFd0wnrcQrPnNY812/ervJQ9cUEW7lNcrrol0mHU4JqF1R98cGQMj/d3F30y7S2MaDOvdAJSfHwh8V3zsXvmqDOvUondLLUadOFXfy0+H4l6ZcJOlli2LRtHaOwi26k73cB5rAQXAQuBpeASz1knYFnZ4KzwNkO45hsewfG2gnuAneDe8C9AdfEto4xbBdq7KDKXIVleH45uAJcCa4CV3uMSa0Nmmx7H8baDx4AD4KHwMM1+Kxhu1BjxyDVQzmiiB2qnWTQQfHTRYwpYodqJzFxA++9Cd4Cb4N3wLvMbNHHb1P8tBpjbHKsULiH994HH4APwUfgY2brUZffHoqcY2W4oeynYtVqMuxRjuchazWh9rmx6r9cESueh9rnxqr/ckfKeJ7xH+o+I8fzeqH6JVc/JdUvc4Xql1z9lHS/zA2qX2qqnxoBnRkJjhKiO6Z61S/8/Df4R+h6jcY6jAHHClmPqrjRs0aQow12hMgjHVV13ZQ1xYxeVO0DizXKOVR9KOdXxRrlHKo+NCm/CnnWXCD7CjpinFlkX5GhQkrv26CgSb1vGXGR4gwz1TmpzXtUX2X6nBqhzjB19SLqO1x7pmzeo/oq02epKO+DfXvPipy4qr7RpDvIMWUp74N960RFTlx1dhHqDjLVL4XsTY55n7q8Dw51Vh1zb029A2LTmxxjH02B7qx6Dea1FlwHrgc3gBsNc7X1e6HkDxU7uPRs6/zUJsxrM7gF3ApuA7cb5mrr91LLz73m43IPyQVce3S413zUe0ihevu7FfdpUoOSA53B758Fz4HnwQvgxYTrp+qxb35V9OuXx3qCz0/BZ+Bz8AX4MoGMlBzoEn7/MngFvApeA69bjBHKD6rx29fPFP365bFe4fNr8A34FnwHvmfsMygI6QfLfoWSp1blSMNjNuk8KSV8fVRVjpT7D+iIkQtxza8kIIZfyb7KD6Fz037jcd+PpcA4yD8enKD5HkL7+37jcd+PpcBEyD8JnKz5HgZlfy4Fof19E+IHpY6aCq5+n9M5KhWUOmoquPp93Tmqb+4g7f4Ed/jmDtLuT3BHjvVmhOjrsY0xTYj1sX1miN4hTnsLX/0y3YnLPtMN3vrVyXfidMh/TyYeKPmuTt+p+5sm9ef5QM13fXWf2uuT/0fIP6j5bh1/9zo1yrlnHffndfWSLrE3nXt/uw49uWcNuYKp75zSmz4o/e2SwNkGfCFRtibbQGzZUuWTUvSqap4p554qn5RiMzZx1AZ53xQePnbBcd8kXUek2LQtOOpIauSaHi8MQl0jFrIu80LduvwXYQ8z9wB9AAA=
+  </data>
+ </layer>
+ <layer name="Buildings 3" width="100" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3aV3dWRRiG4eRH2BARBBVBRbBhAUJHmvQWeodA6L0X6b33HkIPBKQoCAJKU7CBAlaaClbwB3hz5vaIveflm73hude6DjPfrHfW7JNJWppSSimllFJKKaWUutMewIN4CA/jERTAoyjocV/3a4+hEB5HYRTBEyiKYv62dd/2JJ7C0yiOZ1ACJfGsx339v7jfY6v9PYfnUQovoDTK4EW8ZLhf11zucbn0tLTyqIAMVESl9Pjs77+9jFfwKsriNbyON/Cm3Xadc7nHlZl9FVRFNVRHDePzsPrOlEN5VEAGKqISKqOK3Xadc7nHbzH7mqiF2qiDusbnYfWdqYpqqI4at/eOmqiF2ob7dc3lHr/N7OuhPhqgIRoZn4fVd6YO6t7eM+qhPhqgIRoZ7tc1l3vcmNk3QVM0Q3O0MD4Pq+9MYzRBUzRDc7RAJlrabdc5l3ucyexbohVaow3aGp+H1XemFVqjDdqiHdqjAzrabdc5l3vcjtm3Rwd0RCd0Nj4Pq+9MJ3RGF3RFN3RHFnoY7tc1l3vchdl3RTd0RxZ6GJ+H1XemJ7LRC73RB33RD/0N9+uayz3uyeyz0Qu90Qd9jc8jKd8Zq1zucT9m3x8DMBCDMNj4PJLynbEq7vc47vtTSimllFJKKaWUUkoppZRSSiml7oUGYCAGYTCGYCiGYXjItYak87cYhuEYgZHG/99xt7OcR5RGYCRGYTTGYCzGYXzItUYx+9EYg7EYh/EJOw/LeUTpHUzAREzCZEzBVEwLuxazn4CJmITJmJKw87CcR5SmYwZmYhZmYw7mYl7ItaYy+2mYjhmYiVkJOw/LeURpPhZgIRZhMZZgKZaFXGs2s5+DuZiH+ViQsPOwnEeUlmMFVmIVVmMN1mJdyLUWMvtFWIwlWIplCTsPy3lEKQfrkYsN2IhN2IwtIddazuxXYCVWYTXWJOw8LOcRpa3Yhjxsxw7kYyd2hVxrLbNfhxysRy42JOw8LOcRpXexG3uwF/vwHt7H/pBrbWT2m7AZW7AV2xJ2HpbziNIBfICDOIQPcRhHcDTkWnnMfjt2IB87sSth52E5jyh9hI9xDMdxAidxCp+k4Pfjlu95fIrTOIPP8Dm+wJf4KgW/H7d8z+MszuFrfIPzuICL+DYFvx+3fM/jO3yPH/AjfsIlXMaVFPx+3PI9j6u4hp/xC37FddzAbyn4/bjlex6/4w/8ib/wN27iFv5Jwe/HLc1DKXWv5fsdUQXz/Y6ogvl+R1TBfL8jqmC+3xFVMN/viCqY73dEFcz3O6IK5vsdUQXz/Y6ogvl+R1TBfL8jqmC+3xFVMN/viCqY73dEFUzviMnrX5YE7QsAfQAA
+  </data>
+ </layer>
+ <layer name="Buildings 2" width="100" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3dY9DlSBTG8bzrWWNs27Zt27Zt27ZtrTVr2561be9/a77dqsntftNJd5J+qn5fplK3es75krfOSeI4F1IMxVECJVEKpVEGZR39uTLFca5CGlyNa3Btiu5TyeUYjuMETuIUTuMMziZcWw7lUQEVUQmVUQVVAzqvW66j9tfjBtyIm3BzyPpxK27D7bgDd+Iu3I17Eq6thuqogZqohdqog7rBHNc1t1D7tEiH9MiAjCHrx724D/fjHB7Ag3gIDydcWw/10QAN0QiN0QRNgzmuazJR+8zIgqzIhuwh68cjeBSP4XE8gSfxFJ5OuLYZmqMFWqIVWqMN2gZ0XrfkoPY5kQu5kQd5Q9aPZ/AsnsPzeAEv4iW8nHBtO7RHB3REJ3RGF3QN6LxuyUft86MACqIQCoesH6/gVbyG1/EG3sRbeDvh2m7ojh7oiV7ojT7oG8xxXVOE2hdFMRRHCZQMWT/ewbt4D+fxPj7Ah/go4dp+6I8BGIhBGIwhGBrMcV1TitqXRhmURTmUD1k/PsYn+BSf4XN8gS/xVcK1wzAcIzASozAaYzA2oPO6pQK1r4hKqIwqqBqyfnyNb/AtvsP3+AE/4ieN57KxCUsmYhImYwqm6j1O7DMTszAbczBX62lsFmIRFmMJluo9TuyzEquwGmuwVu9xYp+N2ITN2IKteo8T++zELuzGHuzVehqbgziEwziCo3qPE8qMw3hMcLzfryabU/mdSfyNPRlTMBXTMD1kf3dPw3TMcLzfryabU/mdGdR+JmZhNuZgbsj6MQ/zscDxfr96znGfU/mdedR+PhZgIRZhccj6sQzLscLxfr+abE7ld5ZQ+6VYhuVYgZUh68c6rMcGx/v9arI5ld9ZRe1XYw3WYh3W+9yPdEiPDMiITMiMLMiait/bhu3Y4Xi/X002p/I7G6j9RmzCZmzBVp/7kQ3ZkQM5kQu5kQd5U/F7+7AfBxzv96vnHfc5ld/ZRu23Ywd2Yhd2+9yPfMiPAiiIQiiMIiiait+T2atKlmRzKr+zh9rvxT7sxwEc9Lkfqnf/ZPaqkkX3nOoQtT+MIziKYzjucz9U7/7J7FWZnhPU/iRO4TTO4KzP/VC9+ye6V/UzfsGv+A2/44/U/AciFtW7f6J7VX/iL/yNf/Dv//8Ysnt7P6J69090ryqF2l+CS3EZLscVth/Kd/9E96qisKPvR1Tv/onuVUVhR9+PqN79E92risKOvh/RtfsXhR39KCUKO/pRShR29KOUKOzoRylR2NGPUqKwoy8TlXseNt6jcs/DxntU7nnYeI/KPQ+bi0d0biC656F6nyFuEZ0biO55qN5niFtE5waiex6q9xniFtG5geieh+nvMjI9onMD0T0P099lZHpE5waiex6mv8vI9IjODUT3PEx/l5HpEZ0biO55mP4uI9MjOjcQ3fMw/V1Gpkd0biC652H6u4xMj+jcQHTPw/R3GZke0bmB6J6H6e8yinOq0dfqqIGaqIXaEZ4RiUTnHKkOta+LeqiPBmgY837onCM1ovaN0QRN0QzNY94PnXOkFtS+JVqhNdqgbcj6oXp+oHOO1I7at0cHdEQndJbsh+55iur5gcrnhWXThdp3RTd0Rw/0lOyH7nmK6vmByueFZdOL2vdGH/RFP/SX7IfueYrq+YHK54VlM4DaD8QgDMYQDJXsh+55iur5gcrnhWUzjNoPxwiMxCiMluyH7nmK6vmByueFZTOG2o/FOIzHBEyU7IfueYrq+UHYnxfWPU9RPT+Q+Q6DidE9T1E9P5D5DoOJ0T1PUT0/kPkOg4nRPU9RPT+Q+Q6DidE9T1E9P5D5DoOJido8xX6HwcbGxsbGxsbGxsbGJvj8B9td6ukAfQAA
+  </data>
+ </layer>
+ <layer name="Buildings" width="100" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3dY6wlaRDG8dtrezyzY9u2bdu2bdu2zbVt27Zt/Dfp86k36eo+dfrcm1tP8ktmN9011fV+nLdyUlKCpzhKoCRKoTTKoCzKhah3HCdwEqdwGmdwFucS3FddJyWlHuqjARqikROsf+15BE15VEBFVEJlVEFVVAtR7ybcjFtwK27D7bgDdya4r8bMvgmaohmao0XA89CeR9BURw3URC3URh3URb0Q9e7C3bgH9+I+3I8H8GCC+2rJ7FuhNdqgLdoFPA/teQRNfTRAQzRCYzRBUzQLUe8hPIxH8Cgew+N4Ak8muK/2zL4DOqITOqNLwPPQnkfQNEcLtEQrtEYbtEW7EPWewtN4Bs/iOTyPF/Bigvvqyuy7oTt6oCd6BTwP7XkETXt0QEd0Qmd0QVd0C1HvJbyMV/AqXsPreANvJriv3sy+D/qiH/pjQMDz0J5H0HRHD/REL/RGH/RFvxD13sLbeAfv4j28jw/wYYL7GsjsB2EwhmAohgU8D+15BE1/DMBADMJgDMFQDAtR7yN8jE/wKT7D5/gCXya4r+HMfgRGYhRGY0zA89CeR9AMxwiMxCiMxhiMxbgQ9b7C1/gG3+I7fI8f8GOC+xrL7MdhPCZgIiYFPA/teVgsFovFYrFYLBaLxWKxWCwWiyV9ZDwmYCImYTKmYCqmJbmedm9pIdMxAzMxC7MxB3MxL8n1tHtLC5mPBViIRViMJViKZUmup91bWshyrMBKrMJqrMFarEtyPe3eos6v+A2/u/+dARmRCZmRBVmRDdndZ9ZjAzZiEzZjC7ZiW4gepPW0e/sJP+OX/5lDsvI3/vnvD+6/GefAjciJXMiNPMiLfO4727EDO7ELu7EHe7EvRA/Setq9/YE/8VeKdw7JygX8/RfiIreP/CiAgiiEwiiCoijmvrMfB3AQh3AYR3AUx0L0IK2n3ZvDN5+H8x3vHKSZzPNTMBXTMB0z4jjTy3j3clzh1pDc1da6jx6LtJ52bxfzzZfgUsc7B2lm8vwszMYczMW8OM7jGt69Fte5NSR3tbXuo8cirafd25V881W42vHOQZr5PL8AC7EIi7EkjvPIyLuZkNmtIbmrrXUfPRZpPe3eruebb0AGxzsHaZby/DIsxwqsxKo4ziM77+bAjW4NyV1trfvosUjrafeWhW/OimyOdw7SrOb5NViLdViPDXGcRx7ezYt8bg3JXW2t++ixSOtp95aTb86F3I53DtJs5PlN2Iwt2IptcZxHId4tjCJuDcldba376LFI62n3lp9vLoCCjncO0mzn+R3YiV3YjT1xnEcJ3i2JUm4NyV1trfvosUjrafdWlG8uhuKOdw7S7OX5fdiPAziIQ3GcRzneLY8Kbg3JXW2t++ixSOtp91aaby6Dso53DtIc5vkjOIpjOI4TcZxHFd6timpuDcldba376LFI62n3VpFvroTKjncO0pzk+VM4jTM4i3NxnIfFYrFYLBaLxWKxWCwWi8VisVgsFovFYrFYLBaLxWKxWCzSpMcd9dSc9LijnpqTHnfUU3PS4o56lLvZkr1ySU/SOtr781HMKsrdbMleuaQnaR3t/fkoZiXdza7O/6uBmqiF2qgTsBfJXrmkJ2kd7f15jT12v0h3s6P8fTK/nqR1tPfnNfbY/SLdzY7y98n8epLW0d6f19hj94t0NzvK3yfz60laR3t/XmOP3S/S3ewof5/MrydpHe39eY09dr9Id7Oj/H0yv56kdbT35zX22P0i3c2O8vfJ/HqS1tHen9fYY/eLdDc7yt8n8+tJWkd7f15jj90v0t3sKH+fzK8naR3t/XmNPXa/SHezo/x9Mr+epHW09+c19tgtqTP/Am4RAH4AfQAA
+  </data>
+ </layer>
+ <layer name="Exit" width="100" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3TsQ2AMAADQSsrELL/qECRggni4m4CS9YnAAAAAHyukcxxegXb/X6x/FFDH1300UUfXfTRRR9d9NFFH130AQAAAAAAAAAAAAAAAAAAAAAAAAAAAADw9wD4Rc7fAH0AAA==
+  </data>
+ </layer>
+ <layer name="Enemies" width="100" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3buw2AMAwFQIv994KxKEEUNAj84W4CR4r8EkeJAAAAAOCP1iW7goitQA3UZ5/AbBXy6E3T18dBXgHAc/IUAADI0n2W271+AAAAgLO7t2NzEIB69GYAyCOHAQDgO/6+ceVOBpBD/4U5nLEBAAAAAKCXHfqXxV0AfQAA
+  </data>
+ </layer>
+</map>
