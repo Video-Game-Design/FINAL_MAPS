@@ -98,6 +98,72 @@
  <tileset firstgid="90" name="Pebbles" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/Pebbles.png" width="64" height="64"/>
  </tileset>
+ <tileset firstgid="94" name="Barbed Wired" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Barbed Wired.png" width="128" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="102" name="Barbed Wire S" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Barbed Wire S.png" width="32" height="128"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
  <layer name="Base Grass + Dirt" width="100" height="80">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAC+1c2Y4DIQzrHt37+v+vXR52pKpaSkLi2LTzgKJKBQbGjhNIezwcDk+tvbb21trx7/PI3rV2f2Kt/XZ72T639tLae2sfJ59H9qG1xxNr7bfby3b2Pfb48dnal6G/l48r2W1tEX54bY8f3639GPp7+biS3daWyY8RflX0w8rHVXg5i18V/bDycRVeZutH1ngq/EPxtEo/ssZT4R+Kp2h+qFg2vqPzofDMsmx8R+dD+/0sXLN4k/U81rgP7fezcM3iTdbzWOM+dlzCxu0Iv9X6xo5L2Lgd4bda31BxgloezIrjvP3P349XV3pxgloezIrjvP3P38+16ko2jqPj34p+ZPMHNT5KP9hWRaeyzsPZuIxaFZ3KOg9n40rNRs+xev2t96lsXKnZ6DlWr7/1PpWNx1F8s+p9yOr6wT6Pql7fSD+q60LY9x2zz1fFj+q6EPZ9x+zzVfFDRSfYuK06H1bRD9Q9iCpPo+dXqPi9Ctfo+G21+w9r/I3CNTp+U7//yMLxbF6sEp9lzcPSCyuv0P5fRRet/JjNN7LwaJ1/tXx+tv5qNt/IwqN1/tXyeVT9FTqOqrIjHlbVL7L0Qs2OeFhVv3grvKiuz2XzQ50X1fW5KH5YcYXmxSr4RvPDiis0L1bBN1s/ZnUjuy5EJf+IroulG9l1ISr5R3Rd2bis9vvscyu1+Ap1LpXFCzZfZvkR/f+SatxZ51fjzchfzPo9Nu6s86vxZuQvULqBjlOi87N5kq0faFyh/x+CzZNZfpz7OzaeUPN7x0XFjV5/x8YTan7vuKi4EaUbqN9loHlZxf/e/qB0A/W7DDQvq/jf2x81fKrMz9JJNXyqzM/SSW+8wPav1XiNrtero954ge1fq/EaXa9XR9X9uIpfr8rn1f24il+vyudZOI3mt6z7SDRPWDiN5res+0g0T7LxwtKR2XGyeRp9rmy8sHRkdpxsnkafSyXeUct/UPuxrbP3PZV4Ry3/Qe3Hts7e99C4YN1PoHUjuh8oflTFHdnjqta9jN5zVt1JD8/ee3I1vcjej9F7zqo76eHZe0+uphfZ+8GON7L7rVIHn/3/7Wi/P9tvlTr4qt8PRvG+il6g6gPYfnRVvUDVB6D9oTfeYNevsC3aH3rjDXb9CtuycKBaP8u2LByo1s+y7awO7LaGH6vE79dq2XjYrYZ+7PZ/+wviQ2NUAH0AAA==
@@ -106,6 +172,11 @@
  <layer name="Transition Tiles" width="100" height="80">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAC+2cB4pcMQyG5wqpm957Tza9nyPl/teIYDFsflarYsnljX8QD5bFGgZ9I1uS325n0xmysyf8/QLZReNaS/U6R3b+hL8fkF1q/FmWFh+jafExlqL5+ET2mew62Y1Tnt/IvjvW37qi+fhC9pXsJtmtU54/yH461t+6OD4ekz3ZyXGOz+dkLxR+tevvG0ccH0/Jnu3kOMfnS7JXCr/a9feNI46Pol9kvwP8eNfhOIriRpvvWnHL8VH0h+xvgB/vOhxHUdxo810rbt+RvSe7T/YgcN3bZHfILpNdOfaU/Gg5kvIPxi/HAeY7q/9oTj6QfSR7SPYocN27ZPfIrpJdO/aU/Gg5kvIPxi/HAeY7q/9sTjCevc/XZG8q/NTyivxo931eP1mcYDx7n4dkbyv81PKK/Gj3fV4/W98HchxF57kiLt9p/W693sdxFJ3nirh8p/W7r/U+Kf9IccxxwOU79Mutv3U+OEn5R4pjjgMu36Ffbv195UOSxI/EgaTVL7JJ4kfiQNJs/aLR6kHRmo2P0epB0RqdD+RBOgdz9aGsc67Eq9Xf6HwgD9I5mKsPZZ1zJV6t/kblo8RddF3Iy4m2fsv509aHufV681HiLrou5OVEW7/l/Gnrw9x6vfiwcuHtg3CceDmwylof7sWHlQtvH4TjxMuBVdb6cGs+tFwgD1IfRMsJxqm2j1f+Dz+Xt06Mfsu6ted+q7RcIA9SH0TLCcapto9X/g8/l7dOjH7LurXnfq2sXFjjhOPEO4+ird/W9ldm4cIaJxwn3nkUbf22tr+yNS5Q1jkXbx9D+zm88wFZyuYCZZ1z8fYxtJ/DOx8QrdZcoEaNz15qzQVqtPjsLWmet9e+Yl8lzfO23lfsqzBv9DqHrvtVR8K80escuu5XHUnKG9n1S2vdGOtaW+NFyhvZ9Utr3RjrWlvhRYrL7LwR1WfMvkfVSlJcZueNqD5j9j2qVuqdN7TnHe+9qqy5lSz1zhva8473XtUs9zNGzxvov7ZfMTono+cN9F/brxidk9HzhtY/cuOdW+mt0fOG1j9y451b6S0uPlvVqbL8W+dWRuGEi89Wdaos/9a5lVE4kd7rkx032XPis3EivdcnO26y58Rn42TU/VV0vHrnIFvzMur+KjpevXOQrXnBuMH6T/bvKvKB/qP5tM53tc4rGDdY/8n+XUU+0H80n9b5rl55pVce6fW+Ay8nrfJKrzzS630HXk5a5RUpXrLvvfa6j2etexXh9yHNw1glxUv2vdde9/Gsda8i/D6keRivpDwS9Tuq7Ze3vo/H8SL1HbPeOyflkajfUW2/vPV9PI4Xqe+Y9d657P1577l5q7Leu6pV9v6899y8VVnvXbUqmpPZuEDV3tuqVTQns3GBqr23FSVpfy7Vu2bnAtX73pa0P5fqXbNzgRrt3pa1j7AVLkaVtY+wFS5GV+2+fHERq9p9+eIiR959+eIiR959+eIiV7335Uv/a7R9+dLS0jz6B2lmddMAfQAA
+  </data>
+ </layer>
+ <layer name="Walls" width="100" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3d2Y7CMAyFYZ50htlY3v8FJqO5iSCmTkjik/J/UiWooBvYx73q4XDvVFiHNm9peU/LMS0fjds4N+xn630vvfdT+r53m57PfablKy3faflpOL4/F8dnbvez9b4X736817T0fe+xjzrHW9eB256l97UaVe+1yJJ/s2phiydLMI8nS9Cutv/sIUuU0X+00H+00H/Wwnwbp3TtyZc4pWtPvsQpXXvyJY7n2pMnWsgTLeSJFvJkPDJBC5mghUzQ8igT6GVa6GVxSrVAL4tTqgXm2zi1tUC2jFVbC2SLFrJFC9kyD9mghWzQQjZoIRsAKGB20sLspMWanaibGNbslNcNv028vG7oafHyuuF+UAv3g3g1ZLQWMloLGa2llNFWD6O3xbB6GL0tRt7DTsZ6zJP3sLOxHjGoCS3UBABl3Gdo4T5Di3X/Qd3EsO4/qJt4F+M1YlyN1wAAeDHvamHe1cK8q4V5FypUnrXyrL2cR/SzVnrNUtHn0arn87p67PfVZ6mo53VZ22OWamf9x595bp41S+0lD0aeh/Ufb31u3qNjLX1/xd9opVyrPdaVzg0ARpo148Nn1oy/il90I7C8AH0AAA==
   </data>
  </layer>
  <layer name="Trees and Bush" width="100" height="80">
