@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="180" height="180" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="WDirt" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/WDirt.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="5" name="WDirt+Grass" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/WDirt+Grass.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="9" name="Road Cracked Corner" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Road Cracked Corner.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="13" name="Road Cracked" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Road Cracked.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="17" name="Road Cracked Transition 3" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Road Cracked Transition 3.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="21" name="Road Cracked Transition 1" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Road Cracked Transition 1.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="25" name="Road Cracked Transition 2" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Road Cracked Transition 2.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="29" name="Barbed Wired" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Barbed Wired.png" width="128" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="37" name="Barbed Wire S" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Barbed Wire S.png" width="32" height="128"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Base" width="180" height="180">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3cy0orURQEUL3v///iq3MD0pzu2o81kAWOksKq7ATM+9vb24+Pn3dygD8/fn6RQ0z3ibzi74+fP1/8Pt0n8op/P37+ffH7u3pC+SW8qyeUX8J0n8hK+0xWMt0n0j6TNffZ+3v5Tdpn7+/lN2mf7ZP8Tj6OdJ/sk/xOPo50L8mTpntJnjTdp6p32Fa755fuU9U7bKvd80v3ibTP5LV9fvqe6n6/pZ/PtPxO7/PT91T3+y39fKbld3qfyU6m+0R22uft95z8Zu3z9ntOfrP2uZv2sHd+6T5V0x72zi/d5y697+6W/NJ97tL77m7JL90ncuM+k/aZU/X9opzkXd8vSlYy3TPypOk+kfaZtM+cb7pPpH0m7TPnm+4TaZ9J+8z5pvtE2mfSPnO+6T6R9pm0z5xvuk+kfSbtM+eb7tNWt3xf0dP5pfu01S3fV/R0fnaGk7QznGS6T2SlfSYrme4TaZ/Jmvvs8xH5Tdpnn4/Ib9I+T9mnKo+j6+M+9TjSfZqyT1UeR9fHfepxpHtJnjTdS/Kk6T5VvcO22j2/dJ+q3mFb7Z5fuk+kfSav7fPT91T3+y3t9vyq3VPd77e02/NL94l8cp/JTt7dl+33nPxm7fP2e05+s/a5m/awd37pPlXTHvbOL93nLr3v7pb80n3u0vvubskv3Sdy4z6T9rmuW+7Zp/NL92mrW+7Zp/NL94w8abpn5EnTfSLtM2mfOd90n0j7TNpnzjfdJ9I+k/aZ8033ibTPpH3mfNN9Iu0zaZ8533SfSPtM2mfO99Xf+Zb/P97yPLfk9+rvfMv/H295nlvyS/dpi9V2rJvfzS/dpy1W27Fufje/dO/Ik6Z7R560yt1D+XXYZ3ej/CbtMzlpn0n7XEf3a6/80n2qrvu1V37p/pL2mbTPn7qHZ+eX7tPTuodn55fu01Sr71h1r+aX7tNUq+9Yda/ml+4hedJ0D8mTpvtE2mfy3n32fp4VPNUL7+dZwXSfyIr7TFYw3Sfyiq/er6X7RF7x1fu1dM/Ik6Z7Rp403SfSPpP2mfNN94m0z6R95nzTfSLtM2mfOd90n0j7TNpnzjfdJ9I+k/aZ8033ibTPpH3mfF/9nW/5vqO7nqf8au3zlu87uut5yq/WPpOV/O7rQLpP5MnXgXTvyJOme0eetMrdQ/l12Odq73+7Kb9a+0xO2mfSPtfR/dorv3Sfqut+7ZVfur+kfSbt86fu4dn5pfv0tO7h2fml+0SefB1I94k8+TqQ7iF50nQPyZOm+0TaZ/Lefa7+uWR15Vdrn6t/Llld+dXaZ7KC6T6RJ/0PRHwhvED6AQA=
+  </data>
+ </layer>
+ <layer name="Transitions" width="180" height="180">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3USQrDUAwD0GxL6Tymyf3PWR/C5pvkPRBaa6NpAgAAAAAAAAAAAAAAAAAAAAAAAKq8Iu8GDRk+kW+DPlYPZRdOkXODvkXuxVvZvkvk2qAfkWfxVrZv9C/7ZzKN/mX/TKbRv+yfyTT6l/0zmebIr0EfqoeyC0tkbdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1PgDiVo5F0D6AQA=
+  </data>
+ </layer>
+ <layer name="Objects" width="180" height="180">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3ZuQ2AQBADQBrhf/uvkO2AgEV7QjOSA2fO3XUAAAAAAAAAAAAAAAAAAAAAAABt6SNDZIxMDXR4Y44skTWyNdDhL/bqAZDoqB4Aic7qAZDoqh4AAAAPqv8TfwqZqv8TfwoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAt27XAnM1QPoBAA==
+  </data>
+ </layer>
+</map>
