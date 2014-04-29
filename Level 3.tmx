@@ -934,6 +934,177 @@
    </properties>
   </tile>
  </tileset>
+ <tileset firstgid="2560" name="GuideBotPath" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/GuideBotPath.png" width="256" height="256"/>
+  <tile id="0">
+   <properties>
+    <property name="guide" value="1"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="guide" value="2"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="guide" value="3"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="guide" value="4"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="guide" value="5"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="guide" value="6"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="guide" value="7"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="guide" value="8"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="guide" value="9"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="guide" value="10"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="guide" value="11"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="guide" value="12"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="guide" value="13"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="guide" value="14"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="guide" value="15"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="guide" value="16"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="guide" value="17"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="guide" value="18"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="guide" value="19"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="guide" value="20"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="guide" value="21"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="guide" value="22"/>
+   </properties>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="guide" value="23"/>
+   </properties>
+  </tile>
+  <tile id="23">
+   <properties>
+    <property name="guide" value="24"/>
+   </properties>
+  </tile>
+  <tile id="24">
+   <properties>
+    <property name="guide" value="25"/>
+   </properties>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="guide" value="26"/>
+   </properties>
+  </tile>
+  <tile id="26">
+   <properties>
+    <property name="guide" value="27"/>
+   </properties>
+  </tile>
+  <tile id="27">
+   <properties>
+    <property name="guide" value="28"/>
+   </properties>
+  </tile>
+  <tile id="28">
+   <properties>
+    <property name="guide" value="29"/>
+   </properties>
+  </tile>
+  <tile id="29">
+   <properties>
+    <property name="guide" value="30"/>
+   </properties>
+  </tile>
+  <tile id="30">
+   <properties>
+    <property name="guide" value="31"/>
+   </properties>
+  </tile>
+  <tile id="31">
+   <properties>
+    <property name="guide" value="32"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="3584" name="GuideBotSpawn" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/GuideBotSpawn.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="enemy" value="guidebot"/>
+   </properties>
+  </tile>
+ </tileset>
  <layer name="Base" width="180" height="180">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAC+3cy0orURQEUPG+//+Hr84NSHO6az/WQBY4SgqrshMw729vbz8+ft7JAf78+PlFDjHdJ/KKvz9+/nzx+3SfyCv+/fj598Xv7+oJ5Zfwrp5QfgnTfSIr7TNZyXSfSPtM1txn7+/lN2mfvb+X36R9tk/yO/k40n2yT/I7+TjSvSRPmu4ledJ0n6reYVvtnl+6T1XvsK12zy/dJ9I+k9f2+el7qvv9ln4+0/I7vc9P31Pd77f085mW3+l9JjuZ7hPZaZ+333Pym7XP2+85+c3a527aw975pftUTXvYO790n7v0vrtb8kv3uUvvu7slv3SfyI37TNpnTtX3i3KSd32/KFnJdM/Ik6b7RNpn0j5zvuk+kfaZtM+cb7pPpH0m7TPnm+4TaZ9J+8z5pvtE2mfSPnO+6T6R9pm0z5xvuk9b3fJ9RU/nl+7TVrd8X9HT+dkZTtLOcJLpPpGV9pmsZLpPpH0ma+6zz0fkN2mffT4iv0n7PGWfqjyOro/71ONI92nKPlV5HF0f96nHke4ledJ0L8mTpvtU9Q7bavf80n2qeodttXt+6T6R9pm8ts9P31Pd77e02/Ordk91v9/Sbs8v3SfyyX0mO3l3X7bfc/Kbtc/b7zn5zdrnbtrD3vml+1RNe9g7v3Sfu/S+u1vyS/e5S++7uyW/dJ/IjftM2ue6brlnn84v3aetbrlnn84v3TPypOmekSdN94m0z6R95nzTfSLtM2mfOd90n0j7TNpnzjfdJ9I+k/aZ8033ibTPpH3mfNN9Iu0zaZ8531d/51v+/3jL89yS36u/8y3/f7zleW7JL92nLVbbsW5+N790n7ZYbce6+d380r0jT5ruHXnSKncP5ddhn92N8pu0z+SkfSbtcx3dr73yS/epuu7XXvml+0vaZ9I+f+oenp1fuk9P6x6enV+6T1OtvmPVvZpfuk9Trb5j1b2aX7qH5EnTPSRPmu4TaZ/Je/fZ+3lW8FQvvJ9nBdN9IivuM1nBdJ/IK756v5buE3nFV+/X0j0jT5ruGXnSdJ9I+0zaZ8433SfSPpP2mfNN94m0z6R95nzTfSLtM2mfOd90n0j7TNpnzjfdJ9I+k/aZ8331d77l+47uep7yq7XPW77v6K7nKb9a+0xW8ruvA+k+kSdfB9K9I0+a7h150ip3D+XXYZ+rvf/tpvxq7TM5aZ9J+1xH92uv/NJ9qq77tVd+6f6S9pm0z5+6h2fnl+7T07qHZ+eX7hN58nUg3Sfy5OtAuofkSdM9JE+a7hNpn8l797n655LVlV+tfa7+uWR15Vdrn8kKpvtEnvQ/8tK0pED6AQA=
@@ -956,7 +1127,7 @@
  </layer>
  <layer name="Enemies + Exit" width="180" height="180">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAC+3dSQ6AIAwAQDzy/8+6xO0HaEzE2pkLVwhwaWkpBQAAAAAAAAAAAAAAAAAAAIhirKVMtT1CBPN5VpfaHgEAAAAAItjFM3nZ0HsCN63J78iWfP3c47wAAAAAAABcJ18PAADQlv0dJwBAFGLeAAAA16nJBgAA+D75LwCAGMTcASAXMRsAAAAAAAAAAAAAAAAAAACyU3sPQGT+K/8fPQEBAAAAAAAAAAAAAICn1JwAAAAAAACAvFkPeqkBAJCR/w7ysNcAAAAAAAAAAABAL94xAsD71E4DAAAAPKMfIAAAfIscKAAAAAAAAAAAAAAAAAAAAAAAAACRHRmesXRA+gEA
+   H4sIAAAAAAAAC+3dNxLCMBAFUJMxBRnuf0zCkFqGgmSEV3qvcccYkIP+euWqAgAAAAAAAAAAAAAAAAAAAKLY1VW1r59vIYLDbawe6+dbAIBXbSf/3gMAACCcaXMfdZFnkljn3zvwplPhx8i58O/Pe4wXACCKtfoc0FbOTwAA0HqdBu/b1esBACCmjTw/qdKf4wQAiELmDQBACVbyYRqiJ5vcdZ0vAQDIgPoXAEAMMve0+j/Kf3tyZQBeJLMBAAAAACCVpTomAAAAhDEwjwcAAAAAAAqj9x6AyLyvPD/WBAQAAACIZ6EfBwAAAMIamtcDAACQKT0nAAAQz1ztCgAA4MHYXIkvqZulZy01AABK5H0H5fBfAwCQm5F6HAABTVy/AAAIqHYf+5GZ3w0AAO54jhEA0tM7De0wlRcDAACEZT1AAABoFzVQAAAAAAAAAAAAAAAAAAAAAAAAACK7Aki7luJA+gEA
   </data>
  </layer>
  <layer name="WALLS" width="180" height="180">
