@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="120" height="120" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Grate" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Grate.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="5" name="CNBL" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/CNBL.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="9" name="CNBLR" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/CNBLR.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="13" name="CNBR" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/CNBR.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="17" name="CNBRR" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/CNBRR.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="21" name="CNTL" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/CNTL.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="25" name="CNTR" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/CNTR.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="29" name="CNTRR" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/CNTRR.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="33" name="CNTLR" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/CNTLR.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="37" name="CNTLL" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/CNTLL.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="41" name="Invis Block" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Invis Block.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="42" name="SpaceFloor" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/SpaceFloor.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="46" name="SWD" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/SWD.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="50" name="SWDE" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/SWDE.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="54" name="SWL" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/SWL.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="58" name="SWLE" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/SWLE.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="62" name="SWR" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/SWR.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="66" name="SWRE" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/SWRE.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="70" name="SWU" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/SWU.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="74" name="SWUE" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/SWUE.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="78" name="Terminal Server Left" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Terminal Server Left.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="86" name="Terminal Server Right" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Terminal Server Right.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="94" name="Terminal" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Terminal.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="98" name="TerminalServer" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/TerminalServer.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="106" name="TerminalSide Left" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/TerminalSide Left.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="110" name="TerminalSide right" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/TerminalSide right.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="114" name="Exit (1)" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Exit (1).png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="130" name="Exit" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Exit.png" width="64" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="enemy" value="exit"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="enemy" value="exit"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="enemy" value="exit"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="enemy" value="exit"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="134" name="Drone Spawn" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Drone Spawn.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="enemy" value="drone"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="135" name="Melee Spawn" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Melee Spawn.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="enemy" value="melee"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="136" name="Nurse Spawn" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Nurse Spawn.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="enemy" value="nurse"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="137" name="Sentry Spawn" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Sentry Spawn.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="enemy" value="sentry"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Base" width="120" height="120">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3Xt07EUBRF0UemITRD/gEaMgw55/D/v8Np3ICtGQmPPGztYukVT7ItWUf3nl4pZSXe46PmfI6XFu57De9p6/lt34/rdw17vx4bsRpr8RlfNedrvLVw3/Setp7f9v24ftew95uxFedxERMx6Yk57+MhLuMqpmLaE3M+xlP5nd9t/WuD8tv19+lvzC+b+WX7md+T6BfzS1H9x+u4idM4K+aXovqPt3FXnL80zl8292c288tmftnML5v9l83+y2b/ZXP+srk/s5lfNvPLZn7Z7L9s9l82+y+b85fN/ZnN/LKZXzbzy2b/ZbP/stl/2Zy/bO7PbOaXzfyymV82+y+b/ZfN/svm/GVzf2Yzv2zml838stl/2ey/bPZfNucvm/szm/llM79s5pfN/stm/2Wz/7I5f9ncn9nML5v7M5v7M5v7M5vzl839mc38splfNvPLZv9ls/+y2X/ZnL9s7s9s5pfN/LKZXzb7L5v9l83+y+b8ZXN/ZjO/bOaXzfyy2X/Z7L9s9l825y+b+zOb+WUzv2zml83+y2b/ZbP/sjl/2dyf2cwvm/llM79s9l82+y+b/ZfN+cvm/sxmftnML5v5ZbP/stl/2ey/bM5fNvdnNvPLNii/noyzKb+ejLPK70zMxkEc1pw7sQu8H/V7u37OQizGXMzHURzXnHuxD7wf9Xu7fs5SLMc3VMVBGQDhAAA=
+  </data>
+ </layer>
+ <layer name="Transition" width="120" height="120">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BMQEAAADCoPVPbQhfoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA1wBo+KY7AOEAAA==
+  </data>
+ </layer>
+ <layer name="Objects" width="120" height="120">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BMQEAAADCoPVPbQhfoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA1wBo+KY7AOEAAA==
+  </data>
+ </layer>
+ <layer name="Enemies + Exit" width="120" height="120">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BMQEAAADCoPVPbQhfoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA1wBo+KY7AOEAAA==
+  </data>
+ </layer>
+</map>
