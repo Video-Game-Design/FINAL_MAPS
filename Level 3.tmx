@@ -1097,7 +1097,7 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="3584" name="GuideBotSpawn" tilewidth="32" tileheight="32">
+ <tileset firstgid="2624" name="GuideBotSpawn" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/GuideBotSpawn.png" width="32" height="32"/>
   <tile id="0">
    <properties>
@@ -1127,7 +1127,7 @@
  </layer>
  <layer name="Enemies + Exit" width="180" height="180">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAC+3dNxLCMBAFUJMxBRnuf0zCkFqGgmSEV3qvcccYkIP+euWqAgAAAAAAAAAAAAAAAAAAAKLY1VW1r59vIYLDbawe6+dbAIBXbSf/3gMAACCcaXMfdZFnkljn3zvwplPhx8i58O/Pe4wXACCKtfoc0FbOTwAA0HqdBu/b1esBACCmjTw/qdKf4wQAiELmDQBACVbyYRqiJ5vcdZ0vAQDIgPoXAEAMMve0+j/Kf3tyZQBeJLMBAAAAACCVpTomAAAAhDEwjwcAAAAAAAqj9x6AyLyvPD/WBAQAAACIZ6EfBwAAAMIamtcDAACQKT0nAAAQz1ztCgAA4MHYXIkvqZulZy01AABK5H0H5fBfAwCQm5F6HAABTVy/AAAIqHYf+5GZ3w0AAO54jhEA0tM7De0wlRcDAACEZT1AAABoFzVQAAAAAAAAAAAAAAAAAAAAAAAAACK7Aki7luJA+gEA
+   H4sIAAAAAAAAC+3dNxbCMBAFQJMxBRnOw/1PRHiklkdBFl5ppnHrbOuvV64qAAAAAAAAAAAAAAAAAAAAIIptXVW7+vESIthfz9VD/XgJAPCs9ejfawAAAESz+eI44izPJLHWv1fgRcfCr5FT4dvPa5wvAEAUS/U5oKncnwAAoPFa6vUAAFC8lTw/qdK/4wQAiELmDQBACRbyYb5ETza5a7tfAgCQAfUvAIAYZO5pdX+U/3bkygA8SWYDAAAAAEAqc3VMAAAACKNnHA8AAAAAABRG7z0AkflfeX7MCQgAAAAQz0w/DgAAAITVN64HAAAgU3pOAAAgnqnaFQAAwJ2hsRIfUjdLz1xqAACUyP8OyuFYAwCQm4F6HAABjTy/AAAIqPYe+5aJ/QYAADd8xwgA6emdhmYYy4sBAADCMh8gAAA0ixooAAAAAAAAAAAAAAAAAAAAAAAAAJFdAPPVq0dA+gEA
   </data>
  </layer>
  <layer name="WALLS" width="180" height="180">
