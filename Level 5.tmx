@@ -136,9 +136,18 @@
    </properties>
   </tile>
  </tileset>
+ <tileset firstgid="138" name="CNBLT" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/CNBLT.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="142" name="DoorShort" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/DoorShort.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="150" name="DoorWide" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/DoorWide.png" width="128" height="128"/>
+ </tileset>
  <layer name="Base" width="120" height="120">
   <data encoding="base64" compression="gzip">
-   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
+   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
   </data>
  </layer>
  <layer name="Transition" width="120" height="120">
@@ -148,7 +157,7 @@
  </layer>
  <layer name="Objects" width="120" height="120">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAC+3BMQEAAADCoPVPbQhfoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA1wBo+KY7AOEAAA==
+   H4sIAAAAAAAAC+3OwQkAIAwAse7/0rqwnUGQUkjg/hfBJKva3RN8k9XpngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACeXGBnAlcA4QAA
   </data>
  </layer>
  <layer name="Enemies + Exit" width="120" height="120">
