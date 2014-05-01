@@ -5,78 +5,403 @@
  </tileset>
  <tileset firstgid="5" name="CNBL" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/CNBL.png" width="64" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
  </tileset>
  <tileset firstgid="9" name="CNBR" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/CNBR.png" width="64" height="64"/>
+  <tile id="1">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
  </tileset>
  <tileset firstgid="13" name="CNTL" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/CNTL.png" width="64" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
  </tileset>
  <tileset firstgid="17" name="CNTR" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/CNTR.png" width="64" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
  </tileset>
  <tileset firstgid="21" name="SWD" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/SWD.png" width="64" height="64"/>
+  <tile id="2">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
  </tileset>
  <tileset firstgid="25" name="SWDE" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/SWDE.png" width="64" height="64"/>
+  <tile id="2">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
  </tileset>
  <tileset firstgid="29" name="SWL" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/SWL.png" width="64" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
  </tileset>
  <tileset firstgid="33" name="SWLE" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/SWLE.png" width="64" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
  </tileset>
  <tileset firstgid="37" name="SWR" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/SWR.png" width="64" height="64"/>
+  <tile id="1">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
  </tileset>
  <tileset firstgid="41" name="SWRE" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/SWRE.png" width="64" height="64"/>
+  <tile id="1">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
  </tileset>
  <tileset firstgid="45" name="SWU" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/SWU.png" width="64" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
  </tileset>
  <tileset firstgid="49" name="SWUE" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/SWUE.png" width="64" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
  </tileset>
  <tileset firstgid="53" name="Terminal Server Left" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/Terminal Server Left.png" width="64" height="128"/>
+  <tile id="4">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
  </tileset>
  <tileset firstgid="61" name="Terminal Server Right" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/Terminal Server Right.png" width="64" height="128"/>
+  <tile id="4">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
  </tileset>
  <tileset firstgid="69" name="Terminal" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/Terminal.png" width="64" height="64"/>
+  <tile id="2">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
  </tileset>
  <tileset firstgid="73" name="TerminalServer" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/TerminalServer.png" width="64" height="128"/>
+  <tile id="4">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
  </tileset>
  <tileset firstgid="81" name="TerminalSide Left" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/TerminalSide Left.png" width="64" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
  </tileset>
  <tileset firstgid="85" name="TerminalSide right" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/TerminalSide right.png" width="64" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
  </tileset>
  <tileset firstgid="89" name="SpaceFloor" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/SpaceFloor.png" width="64" height="64"/>
  </tileset>
  <tileset firstgid="93" name="CNTLR" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/CNTLR.png" width="64" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
  </tileset>
  <tileset firstgid="97" name="Invis Block" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/Invis Block.png" width="32" height="32"/>
  </tileset>
  <tileset firstgid="98" name="CNBLR" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/CNBLR.png" width="64" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
  </tileset>
  <tileset firstgid="102" name="CNTRR" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/CNTRR.png" width="64" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
  </tileset>
  <tileset firstgid="106" name="CNTLL" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/CNTLL.png" width="64" height="64"/>
+  <tile id="1">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
  </tileset>
  <tileset firstgid="110" name="CNBRR" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/CNBRR.png" width="64" height="64"/>
+  <tile id="1">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
  </tileset>
  <tileset firstgid="114" name="Exit (1)" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/Exit (1).png" width="128" height="128"/>
