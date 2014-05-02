@@ -904,6 +904,14 @@
  <tileset firstgid="689" name="Trash" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/Trash.png" width="128" height="64"/>
  </tileset>
+ <tileset firstgid="697" name="Invis Block" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Invis Block.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
  <layer name="Base" width="120" height="100">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAC+2cWU7DQBAFY7Pv3JKd27FcguU6LB+0FFmKLBDx2J7ufqmP4UmRFQqlHh3NODlZLBantk6csrHVruSOrd1fHvfiy85/ZuvcMbdsba/knq39Xx735szKj//a/PivzY//2vz4r82P/9r8+K/Nj//a/PivzY//2vz4r82P/2X5YWCfTXx+/C/LL3vhvpv4/N49iO5/dn7vHkT3Pzs//mvz4782v7f/Nyb3bft/1ubq3h9n5Y/S3zv72+/b/7M2V/f+OCt/l/05USsv7MdlO9/18C+zPydq5ZX98ut2vuvhXyb+a/Pjvzb/ga1Dhyz134s3K/+RrWOHLPXfizcrP/NLm5/5pc2P/9r8+K/N772PO9f+7br7x6XXs/+83j7uXPu36+4fl16fZf/Z+/yoPy+inZ9m5/c+P+rPi2jnp9n58V+bH/+1+fFfmx//tfnxX5sf/7X58V+bH/+1+fFfmx//tfnxX5sf/7X58b8Of+n5Mv3NwV96vpy9v9Hvf8jO7+1/9PsfsvNz/6E2P/cfavPjvzY//mvz8/k7bX4+f6fNz/zS5md+afPjvzY//mvzT73fOfScpNb+becz+8/jcug5Sa39287nTdt/9j5/6c+Lqc9/+9+zno0/Wn/nOj8d+/9krv7OzU9/fecv/Y3hP/2N3d8sSX/L/M+S9Lesv97nRX8l/Z2mv97nRX9l9P6+mGCvTXkyf2P3980A3pvyZP7G7u+DvUaPzfCs3d+xzzs0vfmnyicDeG6GZ+3+jn3eoenNT3/n6XE0fvo7bY+j8W/K+2cv/7PzZ3n/7OV/dn781+bHf21+/Nfmx39tfvzX5sd/bX781+bHf21+/K/Dz/dfxfR/Kv5N/f6rTekv81e7v8zfmP5n58d/bX781+bHf21+/Nfmx39tfvzX5sd/bX781+bHf23+H2g4tJuAuwAA
@@ -936,7 +944,7 @@
  </layer>
  <layer name="Enemies" width="120" height="100">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAC+3aTQqAIBAGUPEK/Vy/jpoQ4aaNQpn23ma2wsfA4EwIAAAAAAAAAAAAAN+3x9Yv4AlTynWOuTKWJWW6xlwZi/7tz1aQk/6FeuZWAAAAAACgtZLdIAAAAADAxS00AH9ipwYAcDIXAQAAAADQC3/awFvc1AIAAAAAAAAAAAAAwL0DucvslYC7AAA=
+   H4sIAAAAAAAAC+3bQWrbYBRG0eAtNOn2221kd3EHxQ10kMQKPu/pHhCeftwfg7Dkp6ckSZIkSZIkSZIkSd57vXQdcankbVPIDeVtU8gN5W1TyA3lbVPIDeVtU/xp+Bvt2Pne58e13/Pl9qnpfO/zcu3383L71HS+9+n7O8+vTzTp+7uf3FDe9hHCfavcUN42hdxQ3jaF3FDeNoXcUN42hdxQ3jaF3FDeNoXcUN42hdxQ3jaF3FDeNoXcUN42hdxQ3jaF3FDeNoXcUN72CJ95NviX3FDeNoXcUN42hdxQ3jaF3FDeNoXcUN42hdxQ3jaF3FDeNoXcUN42hdRw0n+Tp5AaSlu2kJpKW472qHehpabSli2kptKWLaSm0pYtpKbfseUrz9Q22X6+Zyc1lbZsITWVtmwhNZW2bCE1/XfL2e+LjqKeb44hNZW2bCE1lbZsITWVtmwhNZW2bCE1lbZsITWVtmwhNZW2bCE1lbZsITWVtmwhNZW2bCE1/e4tZ/xN+0zne0ZSU2mL4Ih3aqWm0pYtpKbSli2kptKWLaSm0pYtpKb/+/9g1/1XkiRJkiRJkiRJkiRJkuTx3gDAGe6LgLsAAA==
   </data>
  </layer>
 </map>

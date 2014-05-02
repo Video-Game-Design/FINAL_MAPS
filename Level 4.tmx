@@ -466,6 +466,26 @@
  </tileset>
  <tileset firstgid="142" name="DoorShort" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/DoorShort.png" width="64" height="85"/>
+  <tile id="0">
+   <properties>
+    <property name="door" value="door"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="door" value="door"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="door" value="door"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="door" value="door"/>
+   </properties>
+  </tile>
  </tileset>
  <tileset firstgid="146" name="CornerConnectBL" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/CornerConnectBL.png" width="64" height="64"/>
@@ -493,6 +513,46 @@
  </tileset>
  <tileset firstgid="175" name="DoorWide" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/DoorWide.png" width="128" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="door" value="door"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="door" value="door"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="door" value="door"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="door" value="door"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="door" value="door"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="door" value="door"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="door" value="door"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="door" value="door"/>
+   </properties>
+  </tile>
  </tileset>
  <tileset firstgid="183" name="CornerTrans2" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/CornerTrans2.png" width="64" height="64"/>
