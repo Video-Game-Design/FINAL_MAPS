@@ -445,10 +445,10 @@
  <tileset firstgid="138" name="DoorShort" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/DoorShort.png" width="64" height="85"/>
  </tileset>
- <tileset firstgid="146" name="DoorWide" tilewidth="32" tileheight="32">
+ <tileset firstgid="142" name="DoorWide" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/DoorWide.png" width="128" height="64"/>
  </tileset>
- <tileset firstgid="162" name="CornerTrans3" tilewidth="32" tileheight="32">
+ <tileset firstgid="150" name="CornerTrans3" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/CornerTrans3.png" width="64" height="64"/>
   <tile id="0">
    <properties>
@@ -471,7 +471,7 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="166" name="CornerTrans2" tilewidth="32" tileheight="32">
+ <tileset firstgid="154" name="CornerTrans2" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/CornerTrans2.png" width="64" height="64"/>
   <tile id="0">
    <properties>
@@ -494,7 +494,7 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="170" name="CornerConnectBRC" tilewidth="32" tileheight="32">
+ <tileset firstgid="158" name="CornerConnectBRC" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/CornerConnectBRC.png" width="64" height="64"/>
   <tile id="0">
    <properties>
@@ -517,7 +517,7 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="174" name="WallTrans" tilewidth="32" tileheight="32">
+ <tileset firstgid="162" name="WallTrans" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/WallTrans.png" width="64" height="64"/>
   <tile id="0">
    <properties>
@@ -540,7 +540,7 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="178" name="WallSegment" tilewidth="32" tileheight="32">
+ <tileset firstgid="166" name="WallSegment" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/WallSegment.png" width="32" height="64"/>
   <tile id="0">
    <properties>
@@ -553,10 +553,10 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="180" name="SWDL" tilewidth="32" tileheight="32">
+ <tileset firstgid="168" name="SWDL" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/SWDL.png" width="64" height="64"/>
  </tileset>
- <tileset firstgid="184" name="WallTrans1" tilewidth="32" tileheight="32">
+ <tileset firstgid="172" name="WallTrans1" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/WallTrans1.png" width="64" height="64"/>
   <tile id="0">
    <properties>
@@ -579,7 +579,7 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="188" name="CornerConnectBRCU" tilewidth="32" tileheight="32">
+ <tileset firstgid="176" name="CornerConnectBRCU" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/CornerConnectBRCU.png" width="64" height="64"/>
   <tile id="0">
    <properties>
@@ -602,7 +602,7 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="192" name="Drone Spawn" tilewidth="32" tileheight="32">
+ <tileset firstgid="180" name="Drone Spawn" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/Drone Spawn.png" width="32" height="32"/>
   <tile id="0">
    <properties>
@@ -610,7 +610,7 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="193" name="Melee Spawn" tilewidth="32" tileheight="32">
+ <tileset firstgid="181" name="Melee Spawn" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/Melee Spawn.png" width="32" height="32"/>
   <tile id="0">
    <properties>
@@ -618,7 +618,7 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="194" name="Nurse Spawn" tilewidth="32" tileheight="32">
+ <tileset firstgid="182" name="Nurse Spawn" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/Nurse Spawn.png" width="32" height="32"/>
   <tile id="0">
    <properties>
@@ -626,7 +626,7 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="195" name="Sentry Spawn" tilewidth="32" tileheight="32">
+ <tileset firstgid="183" name="Sentry Spawn" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/Sentry Spawn.png" width="32" height="32"/>
   <tile id="0">
    <properties>
@@ -634,10 +634,10 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="196" name="Tranship" tilewidth="32" tileheight="32">
+ <tileset firstgid="184" name="Tranship" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/Tranship.png" width="960" height="1152"/>
  </tileset>
- <tileset firstgid="4040" name="CNTRS" tilewidth="32" tileheight="32">
+ <tileset firstgid="1264" name="CNTRS" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/CNTRS.png" width="64" height="64"/>
   <tile id="0">
    <properties>
@@ -660,13 +660,13 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="4044" name="DoorShort" tilewidth="32" tileheight="32">
+ <tileset firstgid="1268" name="DoorShort" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/DoorShort.png" width="64" height="85"/>
  </tileset>
- <tileset firstgid="4048" name="DoorWide" tilewidth="32" tileheight="32">
+ <tileset firstgid="1272" name="DoorWide" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/DoorWide.png" width="128" height="64"/>
  </tileset>
- <tileset firstgid="4056" name="CornerConnectT" tilewidth="32" tileheight="32">
+ <tileset firstgid="1280" name="CornerConnectT" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/CornerConnectT.png" width="32" height="65"/>
   <tile id="0">
    <properties>
@@ -679,7 +679,7 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="4060" name="Arc (1)" tilewidth="32" tileheight="32">
+ <tileset firstgid="1282" name="Arc (1)" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/Arc (1).png" width="32" height="64"/>
   <tile id="0">
    <properties>
@@ -692,7 +692,7 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="4062" name="Pileft" tilewidth="32" tileheight="32">
+ <tileset firstgid="1284" name="Pileft" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/Pileft.png" width="32" height="64"/>
   <tile id="1">
    <properties>
@@ -700,7 +700,7 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="4064" name="Pilright" tilewidth="32" tileheight="32">
+ <tileset firstgid="1286" name="Pilright" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/Pilright.png" width="32" height="64"/>
   <tile id="1">
    <properties>
@@ -708,7 +708,7 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="4066" name="Generator" tilewidth="32" tileheight="32">
+ <tileset firstgid="1288" name="Generator" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/Generator.png" width="128" height="192"/>
   <tile id="12">
    <properties>
@@ -761,50 +761,67 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="4090" name="Teleporter" tilewidth="32" tileheight="32">
+ <tileset firstgid="1312" name="Teleporter" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/Teleporter.png" width="128" height="128"/>
  </tileset>
- <tileset firstgid="4106" name="Terminal Server Left" tilewidth="32" tileheight="32">
+ <tileset firstgid="1328" name="Terminal Server Left" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/Terminal Server Left.png" width="64" height="128"/>
  </tileset>
- <tileset firstgid="4114" name="Terminal Server Right" tilewidth="32" tileheight="32">
+ <tileset firstgid="1336" name="Terminal Server Right" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/Terminal Server Right.png" width="64" height="128"/>
  </tileset>
- <tileset firstgid="4122" name="Terminal" tilewidth="32" tileheight="32">
+ <tileset firstgid="1344" name="Terminal" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/Terminal.png" width="64" height="64"/>
  </tileset>
- <tileset firstgid="4126" name="TerminalServer" tilewidth="32" tileheight="32">
+ <tileset firstgid="1348" name="TerminalServer" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/TerminalServer.png" width="64" height="128"/>
  </tileset>
- <tileset firstgid="4134" name="TerminalSide Left" tilewidth="32" tileheight="32">
+ <tileset firstgid="1356" name="TerminalSide Left" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/TerminalSide Left.png" width="64" height="64"/>
  </tileset>
- <tileset firstgid="4138" name="TerminalSide right" tilewidth="32" tileheight="32">
+ <tileset firstgid="1360" name="TerminalSide right" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/TerminalSide right.png" width="64" height="64"/>
  </tileset>
+ <tileset firstgid="1364" name="WDirt" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/WDirt.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="1368" name="WDirt+Grass" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/WDirt+Grass.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="1372" name="Wasteland Bush" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/Wasteland Bush.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="1376" name="LBoulderSA" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/LBoulderSA.png" width="128" height="128"/>
+ </tileset>
+ <layer name="Wasteland" width="120" height="120">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3Xyw3DIAwAUC7ZsL+0++/RbBASUeO470nIFyTDwdi0BgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC/d1tauy9x8bWtNTDfXqzusd3xucTF97Y+gfn2YnVZ6yrq/agua11FvR/VXaV/Hs3bu7+6q/TPo3l791eXrU7Nz2Nlq1Pz81iz62d2/65udv3M7t/VZZube/OMOk912ebm3jyjzlNd9L80W6wu+l+aLVZXpQ7P3qO6KnV49h4AAAAAAAAAAAAAAAAAwP/6AlppH4AA4QAA
+  </data>
+ </layer>
  <layer name="Ship" width="120" height="120">
   <data encoding="base64" compression="gzip">
-   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
+   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
   </data>
  </layer>
  <layer name="Base" width="120" height="120">
   <data encoding="base64" compression="gzip">
-   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
+   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
   </data>
  </layer>
  <layer name="Lights + Doors" width="120" height="120">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAC+3WR07DUABFUe8ge6X3sinYBGUDCQTSQy+hzHhbQIpl8zlHuqNI9o+fB64qAAAAAAAAAKjXVaequjXX7zT9L/+v6zz7Xs3d2LdIt9l1kIZpZOPijLPpJE3TzL7FmWfTu3SfHuxbnMds+pSe04t9i/OaTd/Se1rYtzgf2fQzfaVv+wIA/Htn+SY8911YrItse2lfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOAPWUmraS2tN3wWlm8jbaattN3wWVi+nbSb9tJ+w2dh+Q7SYTpKx80eBQAAAAAAAFrttlNVgzRMo07Tp2HZxtl0kqZpZt/izLPpXbpPD/YtzmM2fUrP6cW+xXnNpm/pPS3SVeq2tL7379c+8sw+01f6Ttep19Ju7AvVSTpt4e9137et1wH+jh/PwFBiAOEAAA==
+   H4sIAAAAAAAAC+3SV07DUBRF0acQA4FQAyH0OdJ7mQ5Mj/LLmQJSLJvHWtL+iuTc+KQUAAAAAAAAAGjXsCll0HKLTde/8v9q8u4XWm7JvlVazq6jtJJWbVydcTZdS+tpw77V2cymW2k7TexbnZ1supumac++1Zll0/10kA7tW52jbHqcTtKpfQEA/r2PYSmfw66voC1f2fbbvgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAH3KWztNFuuz4FubvKl2nm3Tb8S3M3126Tw/pseNbmL+n9Jxe0mu3pwAAAAAAAECvLTeljNJKWm26voZ5G2fTtbSeNuxbnc1supW208S+1dnJprtpmvbsW51ZNt1PB+kwDdOgpy36//3aUd7ZcTpJp6lJCz1tyb5Q3tJ7Dz9v+3v7+hzg7/gBNEnIFQDhAAA=
   </data>
  </layer>
  <layer name="objects" width="120" height="120">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAC+3dx24UURAF0Ec0yUyTjXMk8///QzYGTI4mXBYto5bYWMZ4as6R7qZHGo10N92jel2tMQ6ej1rbSl4kL5PFrrWlbvfzr7n2LdlJvo/+3+9kb16ls+3kdfImWU63K3/0+yPXfv7uNdeOdH/9Gg6pt+nuXfI++ZCspsO1ZDaZS44mx5LjyQn9jp2P6fRT8jn5kqynw41kPllITiZTyanktH4BgELO5N7mrPubss6l22n9lnU+3Y70W1aXbi/ot6wb6famfsu6lW5v6xcAOGTMItRmFqE2swi1/ctZhOFcGrUM59KopZ9Lo6Z+Lq3Xzx9SUz9/CMBkeDBq7WHyKHnsP7hynqTTp8mzZFO/5QzP+1HL8LwftQzP+1HL8LwfdV3sWrvkP5SyLqfbK/ot62q6vabfsmbS7XX9lnUn3d7Vb1n30u19/QIAAAAAAAAAAMCB886/2rzzrzbv/KvN/kFgP9n1VZtdX7XZ9VWbXV+12fVVm11fAAAAAAAAAAAAMNlmu9bmzBKWNZ9uF/QLADB27Bquza7h2uwars2u4drsGq7NrmEAAADYf4t51l7yvF3Wcrpd0W9Zq+l2Tb9lrafbDf0CABPkF9QtdCEA4QAA
+   H4sIAAAAAAAAC+3dx4rcUBQEUG0anHPOOeecPTk6+///xbVpbATejc10zTlQIGjoTYGQ4D7dYWAWHJoMw+HkSHI0WUqWJ79/v5Try8mV5Ork7//D9nQsnR1PTiQnk5Vk9Y8er+X6enIjuanfmXMqnZ1OziRnk7VkPZlL5pNbye3kTnJXvzPnXDo7n1xILiYbyWaykCwm95L7yYPkoX4BgCKP8mzz2PNNrSfp9ql+az1Lt8/1W+tFun2p31qf0u1n/db6km6/6hcA2GbMInQzi9DNLEK3fzmLMJ5Lo8t4Lo0u07k0Ok3n0qam84d0ms4fArAz7Mo9f3eyJ9nr/l9nXzrdnxxIDuq3zvi8H13G5/3oMj7vR5fxeT96vUq/r3Vc6026favfWu/S7Xv91vqQbj/qt9a3dPtdv7V+pNuf+gUAAAAAAAAAAID/zjf/uvnmXzff/Otm/yCwlez66mbXVze7vrrZ9dXNrq9udn0BAAAAAAAAAADAzjY3GYZ5s4S1FtLton4BAGaOXcPd7BruZtdwN7uGu9k13M2uYQAAANh6S3nXXva+XWsl3a7qt9Zaul3Xb62NdLupXwBgB/kFAICbZwDhAAA=
   </data>
  </layer>
  <layer name="Enemies + Exit" width="120" height="120">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAC+3dQQqDMBAFUM+u7b3G9mIV3EiLIFYZM74HIdsPYUKSWaTrAADOM2YHAAAAAICGRHYADuNtFGp6ZwdowJb9L84OAcCPV3YA/uJ+AQAAAABANfrv97O25vogAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD30k9jWMzU8pjGczFTi/qtTf3CbM+/q3F0CAAuyX/MwLc9Z0egvsgOAADQKG8v1xLZAQAAAAAK+gAOZj4iAOEAAA==
+   H4sIAAAAAAAAC+3dSwqAIBQF0NbeZ0d9tlfQJIIgzLJe54A4vSDqUwdWFQDAfYbSAQAAAADgQ/rSAcjG3SjENJUO8AFn1j/7HcDzxtIBuMT5AgAAAACAaLy//8/RmHsHAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4l3ppzaYnlnZp3aYnFvM3NvMXVin/rvbZUwDwRv5jBvZSakcgPmdEAIA07l7eRV0LAAAAkN8MTkaRywDhAAA=
   </data>
  </layer>
 </map>
