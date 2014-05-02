@@ -794,6 +794,14 @@
  <tileset firstgid="1376" name="LBoulderSA" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/LBoulderSA.png" width="128" height="128"/>
  </tileset>
+ <tileset firstgid="1392" name="DoorSpawn" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/DoorSpawn.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="door" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
  <layer name="Wasteland" width="120" height="120">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAC+3Xyw3DIAwAUC7ZsL+0++/RbBASUeO470nIFyTDwdi0BgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC/d1tauy9x8bWtNTDfXqzusd3xucTF97Y+gfn2YnVZ6yrq/agua11FvR/VXaV/Hs3bu7+6q/TPo3l791eXrU7Nz2Nlq1Pz81iz62d2/65udv3M7t/VZZube/OMOk912ebm3jyjzlNd9L80W6wu+l+aLVZXpQ7P3qO6KnV49h4AAAAAAAAAAAAAAAAAwP/6AlppH4AA4QAA
@@ -821,7 +829,7 @@
  </layer>
  <layer name="Enemies + Exit" width="120" height="120">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAC+3dSwqAIBQF0NbeZ0d9tlfQJIIgzLJe54A4vSDqUwdWFQDAfYbSAQAAAADgQ/rSAcjG3SjENJUO8AFn1j/7HcDzxtIBuMT5AgAAAACAaLy//8/RmHsHAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4l3ppzaYnlnZp3aYnFvM3NvMXVin/rvbZUwDwRv5jBvZSakcgPmdEAIA07l7eRV0LAAAAkN8MTkaRywDhAAA=
+   H4sIAAAAAAAAC+3dUQqDMAwAUH92353BbTfS7XoT/BFhMLp2qfE9CP0NSNOmRToMAADtzNEJAAAAAMCBTNEJUI2zUcjpFZ3AAXxT/6x3AP/3jE6An+gvAABo6XpZA4C+qM8AZOf+/Xw+fXP3IAC0pscG6JP6DAAAAAAAAAAAAAAAAACx/OsH0Cf1GQAAAAAAAAA4i3GJ22Ykl/sSj81ILuZvbuYvrEreXZ2qZwFAj7zHDOyV7B2B/PSIAABlnL30xb4WAAAAoL439O0HzwDhAAA=
   </data>
  </layer>
 </map>

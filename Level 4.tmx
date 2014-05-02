@@ -467,64 +467,237 @@
  <tileset firstgid="142" name="DoorShort" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/DoorShort.png" width="64" height="85"/>
  </tileset>
- <tileset firstgid="150" name="CornerConnectBL" tilewidth="32" tileheight="32">
+ <tileset firstgid="146" name="CornerConnectBL" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/CornerConnectBL.png" width="64" height="64"/>
  </tileset>
- <tileset firstgid="154" name="CornerConnectBR" tilewidth="32" tileheight="32">
+ <tileset firstgid="150" name="CornerConnectBR" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/CornerConnectBR.png" width="64" height="64"/>
  </tileset>
- <tileset firstgid="158" name="SIDEWALL" tilewidth="32" tileheight="32">
+ <tileset firstgid="154" name="SIDEWALL" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/SIDEWALL.png" width="32" height="32"/>
  </tileset>
- <tileset firstgid="159" name="CornerConnectTR" tilewidth="32" tileheight="32">
+ <tileset firstgid="155" name="CornerConnectTR" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/CornerConnectTR.png" width="64" height="64"/>
  </tileset>
- <tileset firstgid="163" name="CornerConnectBLC" tilewidth="32" tileheight="32">
+ <tileset firstgid="159" name="CornerConnectBLC" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/CornerConnectBLC.png" width="64" height="64"/>
  </tileset>
- <tileset firstgid="167" name="CornerTrans" tilewidth="32" tileheight="32">
+ <tileset firstgid="163" name="CornerTrans" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/CornerTrans.png" width="64" height="64"/>
  </tileset>
- <tileset firstgid="171" name="CornerConnectBRC" tilewidth="32" tileheight="32">
+ <tileset firstgid="167" name="CornerConnectBRC" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/CornerConnectBRC.png" width="64" height="64"/>
  </tileset>
- <tileset firstgid="175" name="CornerConnectBLCU" tilewidth="32" tileheight="32">
+ <tileset firstgid="171" name="CornerConnectBLCU" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/CornerConnectBLCU.png" width="64" height="64"/>
  </tileset>
- <tileset firstgid="179" name="DoorWide" tilewidth="32" tileheight="32">
+ <tileset firstgid="175" name="DoorWide" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/DoorWide.png" width="128" height="64"/>
  </tileset>
- <tileset firstgid="187" name="CornerTrans2" tilewidth="32" tileheight="32">
+ <tileset firstgid="183" name="CornerTrans2" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/CornerTrans2.png" width="64" height="64"/>
  </tileset>
- <tileset firstgid="191" name="Generator" tilewidth="32" tileheight="32">
+ <tileset firstgid="187" name="Generator" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/Generator.png" width="128" height="192"/>
+  <tile id="1">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="23">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
  </tileset>
- <tileset firstgid="215" name="Teleporter" tilewidth="32" tileheight="32">
+ <tileset firstgid="211" name="Teleporter" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/Teleporter.png" width="128" height="128"/>
+  <tile id="4">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
  </tileset>
- <tileset firstgid="231" name="Pileft" tilewidth="32" tileheight="32">
+ <tileset firstgid="227" name="Pileft" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/Pileft.png" width="32" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
  </tileset>
- <tileset firstgid="233" name="Pilright" tilewidth="32" tileheight="32">
+ <tileset firstgid="229" name="Pilright" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/Pilright.png" width="32" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
  </tileset>
- <tileset firstgid="235" name="Arc (1)" tilewidth="32" tileheight="32">
+ <tileset firstgid="231" name="Arc (1)" tilewidth="32" tileheight="32">
   <image source="Video Game Tiles - Pixel by Pixel/Arc (1).png" width="32" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="233" name="DoorSpawn" tilewidth="32" tileheight="32">
+  <image source="Video Game Tiles - Pixel by Pixel/DoorSpawn.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="door" value="true"/>
+   </properties>
+  </tile>
  </tileset>
  <layer name="Base" width="120" height="120">
   <data encoding="base64" compression="gzip">
-   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
+   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
+  </data>
+ </layer>
+ <layer name="Blank" width="120" height="120">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BMQEAAADCoPVPbQhfoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA1wBo+KY7AOEAAA==
   </data>
  </layer>
  <layer name="Objects" width="120" height="120">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAC+3dxW4cQRRG4X6NwCbKM4SZmfE5HOZkH9xH2Qa24WzC4DAzMz1E/oVHGpXUk/Z0Vd/uO+eTjizZ1vT1LKusO1mWZRfVJXVZXcnSeKFeqlfqtZqn5id6Vp6j6ljFz6yDq+qauq5uJHrGG/VWvVPv1QK1MNGz8hxXJyp+Zh3cVLdUv7rd9v0f6k+X/Qqe8UF9VJ/UZ7VILVaz1Oz4f1ItlHn/Or2Xg3VH3VX31P227/9Uf7vsd/CML+qr+qa+qyVqqZqj5pacv67KvH+d3svBeqAeqkfqccnXQrX61Dq1Xm3I+Z0n6ql6pp5XNBfi2Kg2qc1qi/EsiG+r2qa2qx3GsyC+nWqX2q322I4CAABqKvZZ+H51IMLrII7YZ+EH1aEIr4M4wrPw8N4JzRaehYf3Tmi28Cw8vHdCs4Vn4eG9EwDAxig12noIJDNGjbUeAsmMU+Oth0AyE9RE6yGQzDK13HoIJLNCrbQeAgAAAMB/nVSn1Gl1xngWxHdWnVPn1QXjWWIZqYaooQNf+X80Xw6rYWr4wFf+H82XI9YDAACii7FfouxuCaQTY79E2d0SAAAAAAAAvc5iD3UvqWK3eCcWe6h7SbhPJW/fRpGz7vaz7KJ7pVt7qJFGuE8lb99GkbPu9rPsonulW3uokUa4T4V9G76E+1TYt+ELu8UBAAAAtLDPyzf2efnGPi/f2Ofl2yq12noIJLNGrbUeAgAAAEAjTVKTrYdAMlPUVOshkMw0Nd16CCQzQ820HgLJcF7rG+e1AAAA3WGPuG/sEa/GCOsBkBSfv+Abn7/gG5+/gCK4t/WNe1vfuLf1jXtb37i39a0X7235vFHfPH7eKAAAAAAAAAAAAAAAAAAAgHd71T6HP4/9unX9OwE01z88WjY1AOEAAA==
+   H4sIAAAAAAAAC+3dxW4cQRRG4X6NwCbKM4SZmfE5HOZkH9xF2Qa24WzC4DAzMz1G/oVHGpXUk/Z0Vd/uO+eTjizZ1vT1LKusO1mWZRfVJXVZXcnSeKFeqlfqtZqn5id6Vp6j6ljFz6yDq+qauq5uJHrGG/VWvVPv1QK1MNGz8hxXJyp+Zh3cVLdUv7rd9v0f6k+X/Qqe8UF9VJ/UZ7VILVaz1OwEf1MdlHn/Or2Xg3VH3VX31P227/9Uf7vsd/CML+qr+qa+qyVqqZqj5pacv67KvH+d3svBeqAeqkfqccnXQrX61Dq1Xm3I+Z0n6ql6pp5XNBfi2Kg2qc1qi/EsiG+r2qa2qx3GsyC+nWqX2q322I4CAABqKvZZ+H51IMLrII7YZ+EH1aEIr4M4wrPw8N4JzRaehYf3Tmi28Cw8vHdCs4Vn4eG9EwDAxig12noIJDNGjbUeAsmMU+Oth0AyE9RE6yGQzDK13HoIJLNCrbQeAgAAAMB/nVSn1Gl1xngWxHdWnVPn1QXjWWIZqYaooQNf+X80Xw6rYWr4wFf+H82XI9YDAACii7FfouxuCaQTY79E2d0SAAAAAAAAvc5iD3UvqWK3eCcWe6h7SbhPJW/fRpGz7vaz7KJ7pVt7qJFGuE8lb99GkbPu9rPsonulW3uokUa4T4V9G76E+1TYt+ELu8UBAAAAtLDPyzf2efnGPi/f2Ofl2yq12noIJLNGrbUeAgAAAEAjTVKTrYdAMlPUVOshkMw0Nd16CCQzQ820HgLJcF7rG+e1AAAA3WGPuG/sEa/GCOsBkBSfv+Abn7/gG5+/gCK4t/WNe1vfuLf1jXtb37i39a0X7235vFHfPH7eKAAAAAAAAAAAAAAAAAAAgHd71T6HP4/9unX9OwE01z9YprfbAOEAAA==
   </data>
  </layer>
  <layer name="Enemies + Exit" width="120" height="120">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAC+3cywqDMBAFUL+9tQ//WpdCUSwqca7nQMh2QIKJ3kzXAQDwj8c0nrOZLP00XrOZLNZvNuuXLYbWBcBFvFsXAADAj2/rAriNtPPAp3UBAAAAAKFkLICK0r6BAwAAANnk3wAAAAAAAABgH//er6/iM3I/BQCgpop7T6hOP2UAUnnHAQBr9OoEIJncDAAAAAAAAADAMeQwAAAAAOB87v0CAACwxJmRo+h/z5nkzAAA4L5GcjRtNgDhAAA=
+   H4sIAAAAAAAAC+3cTQ6CMBAGUM7uv0f1FrJwwUYiIrbz8V7SdNuEMrR0OsMAAMASh7EdJz1ZTmM7T3qyeH+zeX/5xL31AKATl9YD2JHHqwHQF/GZHt1aD4DdSNsPXFsPAAAAACCUHAugorR/4GzDeTGVmb8kM7+pzPwF4Fvy3wAAAAAAAABgHWfv/av4jNxPAQCoqeLaE6pTTxmAVL5xAMActToBSCZvBgAA1lOnFmCZf8VN8RlgGXETAICWUtaj8jCANCnxGQAAgCzu/QIAAPCOPSO/ov49W5JnBgAA+/UEOwKHdQDhAAA=
   </data>
  </layer>
 </map>
